@@ -1,5 +1,7 @@
 package Lectures;
 import java.util.Scanner;
+import java.io.FileWriter;
+import java.io.IOException;
 public class Lecture_001 {
     public static void main(String[] args) {
         //System.out.println("Heloo World");
@@ -44,14 +46,14 @@ public class Lecture_001 {
         // System.out.printf("Привет, %s!", name);
         // iScanner.close();
 
-        // Некоторые примитивы
-        // Scanner iScanner = new Scanner(System.in);
-        // System.out.printf("int a: ");
-        // int x = iScanner.nextInt();
-        // System.out.printf("double a: ");
-        // double y = iScanner.nextDouble();
-        // System.out.printf("%d + %f = %f", x, y, x + y);
-        // iScanner.close();
+//        Некоторые примитивы
+//        Scanner iScanner = new Scanner(System.in);
+//        System.out.printf("int a: ");
+//        int x = iScanner.nextInt();
+//        System.out.printf("double a: ");
+//        double y = iScanner.nextDouble();
+//        System.out.printf("%d + %f = %f", x, y, x + y);
+//        iScanner.close();
 
 //        Проверка на соответствие получаемого типа
 //        Scanner iScanner = new Scanner(System.in);
@@ -62,16 +64,24 @@ public class Lecture_001 {
 //        System.out.println(i);
 //        iScanner.close();
 
-        // методы и функции
+//        методы и функции
 //        sayHi();
 //        libb.sayHi();
+
+        try (FileWriter fw = new FileWriter("file.txt", false)) {
+            fw.write("line 1");
+            fw.append('\n');
+            fw.append('2');
+            fw.append('\n');
+            fw.write("line 3");
+            fw.flush();
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
 //        }
 
 //    static void sayHi(){
 //        System.out.println("Hi");
-
-
-
     }
 }
 
