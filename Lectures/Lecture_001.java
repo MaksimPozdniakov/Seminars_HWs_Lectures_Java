@@ -1,5 +1,5 @@
 package Lectures;
-
+import java.util.Scanner;
 public class Lecture_001 {
     public static void main(String[] args) {
         //System.out.println("Heloo World");
@@ -36,7 +36,43 @@ public class Lecture_001 {
             // System.out.println();
         // }
 
+        // получение данных из терминала
+        // строки
+        // Scanner iScanner = new Scanner(System.in);
+        // System.out.printf("name: ");
+        // String name = iScanner.nextLine();
+        // System.out.printf("Привет, %s!", name);
+        // iScanner.close();
+
+        // Некоторые примитивы
+        // Scanner iScanner = new Scanner(System.in);
+        // System.out.printf("int a: ");
+        // int x = iScanner.nextInt();
+        // System.out.printf("double a: ");
+        // double y = iScanner.nextDouble();
+        // System.out.printf("%d + %f = %f", x, y, x + y);
+        // iScanner.close();
+
+//        Проверка на соответствие получаемого типа
+//        Scanner iScanner = new Scanner(System.in);
+//        System.out.printf("int a: ");
+//        boolean flag = iScanner.hasNextInt();
+//        System.out.println(flag);
+//        int i = iScanner.nextInt();
+//        System.out.println(i);
+//        iScanner.close();
+
+        // методы и функции
+//        sayHi();
+//        libb.sayHi();
+//        }
+
+//    static void sayHi(){
+//        System.out.println("Hi");
+
 
 
     }
 }
+
+
