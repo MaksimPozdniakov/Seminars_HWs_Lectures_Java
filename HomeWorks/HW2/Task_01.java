@@ -1,4 +1,4 @@
 package HomeWorks.HW2;
 
-public class fff {
+public class Task_01 {
 }
