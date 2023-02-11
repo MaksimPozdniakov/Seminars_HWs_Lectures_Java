@@ -149,5 +149,6 @@ import java.util.Arrays;
 public class Seminar_001 {
     public static void main(String[] args) {
 // Задача №5.
+
     }
 }
