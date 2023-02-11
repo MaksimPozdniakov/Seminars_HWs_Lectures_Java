@@ -132,7 +132,7 @@ import java.util.Arrays;
 
 //public class Seminar_001 {
 //    public static void main(String[] args) {
-// Задача №4. Во фрвзе "Добро пожаловать на курс по Java" переставить слова в обратном порядке.
+//// Задача №4. Во фрвзе "Добро пожаловать на курс по Java" переставить слова в обратном порядке.
 //        String str = "Добро пожаловать на курс по Java";
 //        String[] words = str.split(" ");
 //        for(int i = 0; i < words.length / 2; i++) {
@@ -146,9 +146,3 @@ import java.util.Arrays;
 //    }
 //}
 
-public class Seminar_001 {
-    public static void main(String[] args) {
-// Задача №5.
-
-    }
-}
