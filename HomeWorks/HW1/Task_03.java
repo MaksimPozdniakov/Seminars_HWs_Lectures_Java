@@ -17,16 +17,16 @@ public class Task_03 {
         int result = 0;
 
         if (new_expression[1].equals("+")){
-            result = Integer.parseInt(new_expression[0].trim()) + Integer.parseInt(new_expression[2].trim());
+            result = Integer.parseInt(new_expression[0]) + Integer.parseInt(new_expression[2]);
         }
         if (new_expression[1].equals("-")){
-            result = Integer.parseInt(new_expression[0].trim()) - Integer.parseInt(new_expression[2].trim());
+            result = Integer.parseInt(new_expression[0]) - Integer.parseInt(new_expression[2]);
         }
         if (new_expression[1].equals("/")){
-            result = Integer.parseInt(new_expression[0].trim()) / Integer.parseInt(new_expression[2].trim());
+            result = Integer.parseInt(new_expression[0]) / Integer.parseInt(new_expression[2]);
         }
         if (new_expression[1].equals("*")){
-            result = Integer.parseInt(new_expression[0].trim()) * Integer.parseInt(new_expression[2].trim());
+            result = Integer.parseInt(new_expression[0]) * Integer.parseInt(new_expression[2]);
         }
         System.out.println(result);
     }
