@@ -18,7 +18,7 @@ public class Task_04 {
             int q_num = Integer.parseInt(q.replace("?", Integer.toString(i)));
             for (int j =0; j < 10; j++) {
                 int w_num = Integer.parseInt(w.replace("?", Integer.toString(j)));
-                for (int k = 0; k < 10; k++) {
+                for (int k = 0; k < 10; k++) { // на случай, если в результате будут тоже вопросы
                     int z_num = Integer.parseInt(z.replace("?", Integer.toString(k)));
                     if (q_num + w_num == z_num) {
                         System.out.printf("Решение есть: %d + %d = %d\n", q_num, w_num, z_num);
