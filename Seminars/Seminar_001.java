@@ -1,25 +1,25 @@
-package Seminars;
+//package Seminars;
 //import java.time.LocalDateTime;
 import java.util.Scanner;
 //import java.util.Arrays;
 
-public class Seminar_001 {
-    public static void main(String[] args) {
+//public class Seminar_001 {
+//    public static void main(String[] args) {
 //
 //        System.out.println(LocalDateTime.now());
 //
-        System.out.println("Введите свое имя: ");
-        Scanner iScanner = new Scanner(System.in);
-        String name = iScanner.nextLine(); // работа с пользователем
-        System.out.printf("Привет, %s ", name);
-        iScanner.close();
-        System.out.println();
+//        System.out.println("Введите свое имя: ");
+//        Scanner iScanner = new Scanner(System.in);
+//        String name = iScanner.nextLine(); // работа с пользователем
+//        System.out.printf("Привет, %s ", name);
+//        iScanner.close();
+//        System.out.println();
 //
 //        int[] arr1 = new int[10]; // массивы
 //        int[] arr2 = new int[] {1,2,3,4,5};
 //        System.out.printf("Вывод на консоль по индексу %d, %d", arr1[3], arr2[0]);
-    }
-}
+//    }
+//}
 
 //public class Seminar_001 {
 //    public static void main(String[] args) {
@@ -120,8 +120,8 @@ public class Seminar_001 {
 //import java.util.Random;
 //public class Seminar_001 {
 //    public static void main(String[] args) {
-// Дополнительная задача. Задать целочисленный массив состоящий из элементов 0 и 1.
-// С помощью цикла и условия заменить 0 на 1 и 1 на 0. Эту задачу надо дорешать!!!
+//// Дополнительная задача. Задать целочисленный массив состоящий из элементов 0 и 1.
+//// С помощью цикла и условия заменить 0 на 1 и 1 на 0. Эту задачу надо дорешать!!!
 //        int[] arr = new int[10];
 //        Random rnd = new Random();
 //        for (int i = 0; i < arr.length; i++){
