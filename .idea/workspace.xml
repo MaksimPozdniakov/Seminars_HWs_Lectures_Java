@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="Seminar_001" />
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="Seminar_001">
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW1/Task_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW1/Task_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW1/Task_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW1/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW1/Task_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_001.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +42,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Максим/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PMPav/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Seminar_001">
+  <component name="RunManager" selected="Application.Task_01">
     <configuration name="Lecture_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_001" />
       <module name="Seminars_HWs_Java" />
@@ -65,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW1.Task_01" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorks.HW1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_01" />
         <item itemvalue="Application.Seminar_001" />
         <item itemvalue="Application.Lecture_001" />
       </list>
@@ -130,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676130176093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Seminar_001">
+      <created>1676143884187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676143884187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
