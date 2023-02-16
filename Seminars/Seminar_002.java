@@ -129,10 +129,18 @@ package Seminars;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.util.Arrays;
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.FileHandler.encoding=UTF-8
 
 public class Seminar_002 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Logger logger = Logger.getLogger(Seminar_002.class.getName());
+        FileHandler fh = new FileHandler("log.txt");
+        logger.addHandler(fh);
+
+
         String startDir = System.getProperty("user.dir");
         String[] data = getDirArr(startDir);
         writeToFile(data);
