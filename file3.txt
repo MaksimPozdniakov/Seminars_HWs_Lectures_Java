@@ -1,0 +1,1 @@
+.git, .gitignore, .idea, file.txt, file2.txt, file4.txt, HomeWorks, Lectures, out, Seminars
