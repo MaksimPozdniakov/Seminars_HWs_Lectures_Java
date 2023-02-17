@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_01">
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="Sem_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,13 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676617460668</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Sem_3">
+      <created>1676619622100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676619622100</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lecture_001" />
     <MESSAGE value="Seminar_001" />
     <MESSAGE value="HW_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_01" />
+    <MESSAGE value="Sem_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sem_3" />
   </component>
 </project>
