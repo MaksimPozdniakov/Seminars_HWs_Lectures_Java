@@ -1,9 +1,9 @@
-package Lectures;
-import java.util.Scanner;
-import java.io.FileWriter;
-import java.io.IOException;
-public class Lecture_001 {
-    public static void main(String[] args) {
+//package Lectures;
+//import java.util.Scanner;
+//import java.io.FileWriter;
+//import java.io.IOException;
+//public class Lecture_001 {
+//    public static void main(String[] args) {
 //        System.out.println("Heloo World");
 //        String s = "2";
 //        System.out.println(s);
@@ -82,7 +82,7 @@ public class Lecture_001 {
 
 //    static void sayHi(){
 //        System.out.println("Hi");
-    }
-}
+//    }
+//}
 
 
