@@ -40,9 +40,9 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/PMPav/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task_04">
-    <configuration name="Seminar_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_001" />
+  <component name="RunManager" selected="Application.Seminar_003">
+    <configuration name="Seminar_003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_003" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Seminar_003" />
         <item itemvalue="Application.Task_04" />
         <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
         <item itemvalue="Application.Task_01" />
-        <item itemvalue="Application.Seminar_001" />
       </list>
     </recent_temporary>
   </component>
