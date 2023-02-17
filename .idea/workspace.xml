@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="Sem_3">
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PMPav/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Максим/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Seminar_003">
-    <configuration name="Seminar_003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_003" />
+}]]></component>
+  <component name="RunManager" selected="Application.HomeWorks.HW2.Task_02">
+    <configuration name="HomeWorks.HW2.Task_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_02" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminars.*" />
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW1.Task_01" />
+    <configuration name="Seminar_003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_003" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWorks.HW1.*" />
+          <option name="PATTERN" value="Seminars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWorks.HW2.Task_02" />
         <item itemvalue="Application.Seminar_003" />
         <item itemvalue="Application.Task_04" />
         <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
-        <item itemvalue="Application.Task_01" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676619622100</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW_02">
+      <created>1676632390523</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676632390523</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +249,7 @@
     <MESSAGE value="Seminar_001" />
     <MESSAGE value="HW_01" />
     <MESSAGE value="Sem_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sem_3" />
+    <MESSAGE value="HW_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_02" />
   </component>
 </project>
