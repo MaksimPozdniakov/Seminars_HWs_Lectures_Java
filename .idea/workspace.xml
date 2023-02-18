@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_02">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2023_18_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2023_18_41__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_13_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_13_28__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_02_2023_9_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_02_2023_9_58__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Максим/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java"
+    "last_opened_file_path": "C:/Users/PMPav/Desktop/Second block of study/Test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager" selected="Application.HomeWorks.HW2.Task_02">
