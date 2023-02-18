@@ -11,5 +11,7 @@ package HomeWorks.HW2;
 // Студент Краснов получил 5 по предмету Физика.
 
 public class Task_03 {
+    public static void main(String[] args)  {
 
+    }
 }
