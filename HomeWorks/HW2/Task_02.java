@@ -33,7 +33,7 @@ public class Task_02 {
     }
     static Logger logResult() throws IOException {
         Logger log = Logger.getLogger(Task_02.class.getName());
-        FileHandler fh = new FileHandler("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\Seminars_HWs_Lectures_Java\\HomeWorks\\HW2\\log1.txt", true);
+        FileHandler fh = new FileHandler("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\Seminars_HWs_Lectures_Java\\HomeWorks\\HW2\\logToTask2.txt", true);
         log.addHandler(fh);
         log.setUseParentHandlers(false);
 
