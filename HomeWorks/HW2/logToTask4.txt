@@ -1,2 +1,2 @@
-
-
+февр. 19, 2023 2:35:07 PM HomeWorks.HW2.Task_04 main
+INFO: 5 / 7 = 0,71
