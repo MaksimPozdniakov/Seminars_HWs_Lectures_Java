@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_02">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_databind.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Seminars_HWs_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Seminars_HWs_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2023_18_41_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2023_18_41__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_13_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_13_28__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_02_2023_9_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_02_2023_9_58__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/FileToTask3.json" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/FileToTask3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW2/Task_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="efbe895d-74ce-4cc6-a4ea-74880e8cd122" />
+        <option name="url" value="https://github.com/MaksimPozdniakov/Seminars_HWs_Lectures_Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,10 +60,11 @@
     "last_opened_file_path": "C:/Users/PMPav/Desktop/Second block of study/Test",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.1572327"
+    "project.structure.side.proportion": "0.1572327",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HomeWorks.HW2.Task_03">
+  <component name="RunManager" selected="Application.Task_01">
     <configuration name="HomeWorks.HW2.Task_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_02" />
       <module name="Seminars_HWs_Java" />
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW1.Task_04" />
+    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_01" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWorks.HW1.*" />
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_01" />
         <item itemvalue="Application.HomeWorks.HW2.Task_03" />
         <item itemvalue="Application.HomeWorks.HW2.Task_04" />
         <item itemvalue="Application.HomeWorks.HW2.Task_02" />
         <item itemvalue="Application.Seminar_003" />
-        <item itemvalue="Application.Task_04" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676723304351</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="HW_02">
+      <created>1676753407046</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676753407046</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

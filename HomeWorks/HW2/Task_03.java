@@ -30,8 +30,7 @@ public class Task_03 {
     public static List<Map<String, Object>> Read_and_Pars(String path) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
         String jsonString = Files.readString(Paths.get(path), StandardCharsets.UTF_8);
-        return mapper.readValue(jsonString, new TypeReference<>() {
-        });
+        return mapper.readValue(jsonString, new TypeReference<>() {});
     }
 
     public static void Show_result(List<Map<String, Object>> jsonString) {
