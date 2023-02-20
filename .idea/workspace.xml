@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW3/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW3/Task_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW3/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW3/Task_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task_02">
-    <configuration name="HomeWorks.HW2.Task_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_02" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWorks.HW2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task_03">
     <configuration name="HomeWorks.HW2.Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_03" />
       <module name="Seminars_HWs_Java" />
@@ -129,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW3.Task_03" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorks.HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
         <item itemvalue="Application.HomeWorks.HW3.Task_01" />
         <item itemvalue="Application.HomeWorks.HW2.Task_04" />
         <item itemvalue="Application.HomeWorks.HW2.Task_03" />
-        <item itemvalue="Application.HomeWorks.HW2.Task_02" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676898410335</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="HW_02">
+      <created>1676907813341</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676907813341</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
