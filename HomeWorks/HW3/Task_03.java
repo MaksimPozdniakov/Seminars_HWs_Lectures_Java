@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Task_03 {
     public static void main(String[] args) {
-        ArrayList<Integer> my_list = create_list(4);
+        ArrayList<Integer> my_list = create_list(10);
         System.out.printf("Наш список: %s", my_list);
         System.out.println();
         System.out.printf("Минимальное значение списка: %s", min_digit(my_list));
