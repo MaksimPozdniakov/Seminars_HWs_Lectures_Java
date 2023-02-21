@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_3" />
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +60,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task_03">
+  <component name="RunManager" selected="Application.Task_02">
+    <configuration name="HomeWorks.HW2.Task_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_02" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWorks.HW2.Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_03" />
       <module name="Seminars_HWs_Java" />
@@ -87,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorks.HW3.Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW3.Task_01" />
+    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_01" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWorks.HW3.*" />
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW3.Task_03" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWorks.HW3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
-        <item itemvalue="Application.HomeWorks.HW3.Task_01" />
         <item itemvalue="Application.HomeWorks.HW2.Task_04" />
         <item itemvalue="Application.HomeWorks.HW2.Task_03" />
+        <item itemvalue="Application.HomeWorks.HW2.Task_02" />
+        <item itemvalue="Application.Task_01" />
       </list>
     </recent_temporary>
   </component>
@@ -299,35 +299,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676806531764</updated>
     </task>
-    <task id="LOCAL-00023" summary="HW_02">
-      <created>1676891951284</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1676891951284</updated>
-    </task>
-    <task id="LOCAL-00024" summary="HW_02">
-      <created>1676898410335</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1676898410335</updated>
-    </task>
-    <task id="LOCAL-00025" summary="HW_02">
-      <created>1676907813341</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1676907813341</updated>
-    </task>
-    <task id="LOCAL-00026" summary="HW_3">
-      <created>1676909525986</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1676909525986</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -336,7 +308,6 @@
     <MESSAGE value="HW_01" />
     <MESSAGE value="Sem_3" />
     <MESSAGE value="HW_02" />
-    <MESSAGE value="HW_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_02" />
   </component>
 </project>
