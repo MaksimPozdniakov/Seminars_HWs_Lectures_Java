@@ -1,4 +1,4 @@
-//package Seminars;
+package Seminars;//package Seminars;
 
 // Задача №1. Даны следующие строки, cравнить их с помощью == и метода equals() класса Object
 // String s1 = "hello";
@@ -8,6 +8,10 @@
 // String s5 = new String("hello");
 // String s6 = new String(new char[]{'h', 'e', 'l', 'l', 'o'});
 
+//import java.util.ArrayList;
+//import java.util.List;
+//import java.util.Objects;
+//
 //public class Seminar_003 {
 //    public static void main(String[] args) {
 //        String s1 = "hello";
@@ -17,15 +21,15 @@
 //        String s5 = new String("hello");
 //        String s6 = new String(new char[]{'h', 'e', 'l', 'l', 'o'});
 //
-//        if (s1.equals(s2)){
-//            System.out.println("Равны");
-//        }else {
-//            System.out.println("Не равны");
-//        }
-//        if (s1.equals(s5)){
-//            System.out.println("Равны");
-//        }else {
-//            System.out.println("Не равны");
+//        ArrayList<String> arr = new ArrayList<>(List.of(s1, s2, s3, s4, s5, s6));
+//
+//        for (int i = 0; i < arr.size(); i++) {
+//            for (int j = i + 1; j < arr.size(); j++) {
+//                System.out.printf("[i:%d, j:%d] (%s == %s) -> %s\n", i, j, arr.get(i), arr.get(j), arr.get(i) == arr.get(j));
+//                System.out.printf("[i:%d, j:%d] (%s.equals(%s)) -> %s\n", i, j, arr.get(i), arr.get(j), Objects.equals(arr.get(i), arr.get(j)));
+//                System.out.println("--------------");
+//            }
+//            System.out.println("==============");
 //        }
 //    }
 //}
@@ -55,44 +59,73 @@
 // Задача №3. Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
 // Вывести название каждой планеты и количество его повторений в списке.
 
+//import java.util.*;
+//
+//public class Seminar_003 {
+//    public static void main(String[] args) {
+//        ArrayList<String> arr = new ArrayList<>(Arrays.asList("Меркурий",
+//                "Земля ", "Венера", "Нептун", "Юпитер", "Земля ", "Земля ", "Марс", "Венера",
+//                "Юпитер", "Сатурн", "Меркурий", "Земля ", "Венера", "Марс", "Нептун"));
+//        System.out.println("Изначальный список");
+//        showCounts(arr);
+//        delRepeats(arr);
+//        System.out.println("После удаления");
+//        showCounts(arr);
+//    }
+//
+//    public static void showCounts(ArrayList<String> data){
+//        Set<String> mySet = new HashSet<>(data);
+//        for (String planet: mySet) {
+//            int count = Collections.frequency(data, planet);
+//            System.out.printf("Колличество %s -> %d\n", planet, count);
+//        }
+//    }
+//
+//    public static void delRepeats(ArrayList<String> data){
+//        Iterator<String> iterator = data.iterator();
+//        while (iterator.hasNext()){
+//            if (Collections.frequency(data, iterator.next()) > 1){
+//                iterator.remove();
+//            }
+//        }
+//    }
+//}
+
+// Задача №4. Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
+// Вывести название каждой планеты и количество его повторений в списке.
+
 //import java.util.ArrayList;
-//import java.util.Arrays;
+//import java.util.Iterator;
 
 //public class Seminar_003 {
 //    public static void main(String[] args) {
-//        String[] arr = new String[] {"Марс", "Нептун", "Плутон", "Земля", "Нептун", "Земля", "Марс"};
-//        System.out.println(Arrays.toString(arr));
-//        int count = 1;
-//
-//        StringBuilder s2 = new StringBuilder();
-//
-//        for (int i = 0; i < arr.length - 1; i++) {
-//            if (arr[i].equals(arr[i + 1])) {
-//                count++;
-//                System.out.println(count);
-//            }else {
-//                s2.append(count);
-//                s2.append(arr[i]);
-//                count = 1;
+//        ArrayList<String> arr = new ArrayList<>();
+//        arr.add("Строка 1");
+//        arr.add("1");
+//        arr.add("Строка 2");
+//        arr.add("2");
+//        arr.add("Строка 3");
+//        arr.add("3");
+//        Iterator<String> iterator = arr.iterator();
+//        System.out.println(arr);
+//        while (iterator.hasNext()){
+//            String current = iterator.next();
+//            if (isParable(current)){
+//                iterator.remove();
+//            } else {
+//                System.out.printf("\"%s\" - это было не число...\n", current);
 //            }
 //        }
-//        System.out.println(s2);
-
-//        ArrayList<String> planets = new ArrayList<String>(Arrays.asList("Марс", "Марс", "Нептун", "Плутон", "Земля", "Нептун", "Земля", "Марс"));
-//        int count = 1;
-//        for (int i = 0; i < planets.size() - 1; i++) {
-//            count = 1;
-//            for (int j = i+1; j < planets.size() - 1; j++) {
-//                if (planets.get(i).equals(planets.get(j))) {
-//                    planets.remove(planets.get(j));
-//                    count ++;
-//                }
-//            }
-//            System.out.printf("Планета %s повторяется %d раз \n", planets.get(i), count);
+//        System.out.println(arr);
+//    }
+//
+//    public static Boolean isParable(String number){
+//        try {
+//            Integer.parseInt(number);
+//            return true;
+//        }catch (Exception e){
+//            return false;
 //        }
-
-// от Еды
-
-
 //    }
 //}
+
