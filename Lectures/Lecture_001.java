@@ -68,7 +68,7 @@
 //        sayHi();
 //        libb.sayHi();
 
-//        try (FileWriter fw = new FileWriter("file.txt", false)) {
+//        try (FileWriter fw = new FileWriter("file10.txt", false)) {
 //            fw.write("line 1");
 //            fw.append('\n');
 //            fw.append('2');

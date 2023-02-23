@@ -78,7 +78,7 @@
 //        for (int i = 0; i < 100; i++){
 //            s.append("TEST ");
 //        }
-//        try (FileWriter fw = new FileWriter("file.txt", false)) {
+//        try (FileWriter fw = new FileWriter("file25.txt", false)) {
 //            fw.append(s);
 //            fw.flush();
 //        } catch (IOException ex) {
@@ -105,7 +105,7 @@
 //    public static void writeToFile(String data){
 //        try{
 //            String pathProdject = System.getProperty("user.dir");
-//            String pathFile = pathProdject.concat("\\file4.txt");
+//            String pathFile = pathProdject.concat("\\file45.txt");
 //            File file = new File(pathFile);
 //
 //            FileWriter fileWriter = new FileWriter(file, true);
@@ -137,7 +137,7 @@
 //public class Seminar_002 {
 //    public static void main(String[] args) throws IOException {
 //        Logger logger = Logger.getLogger(Seminar_002.class.getName());
-//        FileHandler fh = new FileHandler("log.txt");
+//        FileHandler fh = new FileHandler("log42.txt");
 //        logger.addHandler(fh);
 //
 //
@@ -160,7 +160,7 @@
 //        String result = String.join(", ", data);
 //        try{
 //            String pathProdject = System.getProperty("user.dir");
-//            String pathFile = pathProdject.concat("\\file3.txt");
+//            String pathFile = pathProdject.concat("\\file35.txt");
 //            File file = new File(pathFile);
 //
 //            FileWriter fileWriter = new FileWriter(file, true);
