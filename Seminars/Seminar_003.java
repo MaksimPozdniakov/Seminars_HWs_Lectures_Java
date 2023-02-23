@@ -94,7 +94,7 @@
 // Задача №4. Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
 // Вывести название каждой планеты и количество его повторений в списке.
 
-//import java.util.ArrayList;
+// import java.util.ArrayList;
 //import java.util.Iterator;
 
 //public class Seminar_003 {
