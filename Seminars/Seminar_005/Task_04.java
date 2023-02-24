@@ -10,10 +10,3 @@ package Seminars.Seminar_005;
 // Строки с одинаковой длиной не должны “потеряться”.
 
 // TreeMap - Что это такое???
-
-public class Task_04 {
-    public static void main(String[] args) {
-
-    }
-    static boolean ex1()
-}
