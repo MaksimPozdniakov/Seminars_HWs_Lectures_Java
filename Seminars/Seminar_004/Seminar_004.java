@@ -131,11 +131,11 @@ package Seminars.Seminar_004;
 // Реализовать стек с помощью массива.
 // Нужно реализовать методы: size(), empty(), push(), peek(), pop().
 
-public class Seminar_004 {
-    public static void main(String[] args) {
-        MyStack stack = new MyStack();
-        System.out.println(stack.size());
-        stack.push(5);
-        System.out.println(stack.pop());
-    }
-}
+//public class Seminar_004 {
+//    public static void main(String[] args) {
+//        MyStack stack = new MyStack();
+//        System.out.println(stack.size());
+//        stack.push(5);
+//        System.out.println(stack.pop());
+//    }
+//}
