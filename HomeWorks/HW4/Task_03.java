@@ -21,11 +21,11 @@ public class Task_03 {
     }
     static int sumElements(LinkedList<Integer> myLinkedList) {
         Iterator<Integer> iteratorList = myLinkedList.iterator();
-        int total = 0;
+        int sum = 0;
         while (iteratorList.hasNext()) {
             int item = iteratorList.next();
-            total += item;
+            sum += item;
         }
-        return total;
+        return sum;
     }
 }
