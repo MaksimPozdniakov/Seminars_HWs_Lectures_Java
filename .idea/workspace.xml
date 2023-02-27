@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_4">
-      <change afterPath="$PROJECT_DIR$/Seminars/Seminar_005/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW5/Task_01/FileToTask_01.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW5/Task_01/Task_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW5/Task_02/Task_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWorks/HW5/Task_03/Task_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005/Task_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,20 @@
       <recent name="C:\Users\PMPav\Desktop\Second block of study\Seminars\Seminars_HWs_Lectures_Java\Lectures\Lecture_001" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task">
+  <component name="RunManager" selected="Application.HomeWorks.HW5.Task_01.Task_01">
+    <configuration name="HomeWorks.HW5.Task_01.Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW5.Task_01.Task_01" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorks.HW5.Task_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Seminars.Seminar_005.Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005.Task_01" />
       <module name="Seminars_HWs_Java" />
@@ -97,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW4.Task_01" />
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_01" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWorks.HW4.Task_02.*" />
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005.Task_04" />
+    <configuration name="Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW2.Task_03" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminars.Seminar_005.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005.Task_4" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminars.Seminar_005.*" />
+          <option name="PATTERN" value="HomeWorks.HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Task_04" />
-        <item itemvalue="Application.Task_4" />
+        <item itemvalue="Application.HomeWorks.HW5.Task_01.Task_01" />
         <item itemvalue="Application.Seminars.Seminar_005.Task_01" />
         <item itemvalue="Application.Task_01" />
+        <item itemvalue="Application.Task_03" />
+        <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677348270907</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HW_4">
+      <created>1677483113547</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483113548</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
