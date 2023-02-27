@@ -1,4 +1,4 @@
-//package Seminars;
+package Seminars.Seminar_003;
 
 // Задача №1. Даны следующие строки, cравнить их с помощью == и метода equals() класса Object
 // String s1 = "hello";
@@ -58,7 +58,33 @@
 
 // Задача №3. Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
 // Вывести название каждой планеты и количество его повторений в списке.
+// наш вариант
+import java.util.Arrays;
+import java.util.ArrayList;
 
+public class Seminar_003 {
+    public static void main(String[] args) {
+        ArrayList<String> planets = new ArrayList<>(Arrays.asList("Меркурий", "Земля ", "Венера", "Нептун", "Юпитер",
+                "Земля ", "Земля ", "Марс", "Венера", "Юпитер", "Сатурн", "Меркурий", "Земля ", "Венера",
+                "Марс", "Нептун"));
+        int count = 1;
+        for (int i = 0; i < planets.size(); i++) {
+            count = 1;
+            for (int j = i+1; j < planets.size(); j++) {
+                if (planets.get(i).equals(planets.get(j))) {
+                    planets.remove(j);
+                    j--;
+                    count ++;
+                }
+            }
+            System.out.printf("Планета %s повторяется %d раз", planets.get(i), count);
+            System.out.println();
+        }
+        System.out.println(planets);
+    }
+}
+
+// Вариант от Ёды
 //import java.util.*;
 //
 //public class Seminar_003 {

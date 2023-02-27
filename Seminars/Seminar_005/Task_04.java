@@ -42,7 +42,7 @@ public class Task_04 {
                 treeMap.put(s2.length(), list);
             }
         }
-        System.out.println(treeMap);
+//        System.out.println(treeMap);
         for (Map.Entry<Integer, List<String>> entry: treeMap.entrySet()) {
             System.out.println(entry);
         }
