@@ -41,15 +41,16 @@ public class Task_02 {
                 count ++;
                 }
             }
-            System.out.printf("Имя %s повторяется %d раз", names.get(i), count);
-            System.out.println();
-            treeMap.put(count, names.get(i));
-//            System.out.println(treeMap);
+//            System.out.printf("Имя %s повторяется %d раз", names.get(i), count);
+//            System.out.println();
+
+            if (count > 1) {
+                treeMap.put(count, names.get(i));
+            }
         }
-//        System.out.println(treeMap);
-//        for (Map.Entry<Integer, String> entry: treeMap.entrySet()) {
-//            System.out.println(entry);
-//        }
+        for (Map.Entry<Integer, String> entry: treeMap.entrySet()) {
+            System.out.println(entry);
+        }
     }
 }
 
