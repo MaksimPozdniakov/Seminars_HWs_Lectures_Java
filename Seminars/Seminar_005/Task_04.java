@@ -34,7 +34,6 @@ public class Task_04 {
 //        });
         String[] s1 = s.split("\n");
         for(String s2: s1){
-            System.out.println(s2);
             if (treeMap.containsKey(s2.length())){
                 List<String> list = treeMap.get(s2.length());
                 list.add(s2);
@@ -47,9 +46,9 @@ public class Task_04 {
                 treeMap.put(s2.length(), list);
             }
         }
-//        System.out.println(treeMap);
-//        for (Map.Entry<Integer, List<String>> entry: treeMap.entrySet()) {
-//            System.out.println(entry);
-//        }
+        System.out.println(treeMap);
+        for (Map.Entry<Integer, List<String>> entry: treeMap.entrySet()) {
+            System.out.println(entry);
+        }
     }
 }
