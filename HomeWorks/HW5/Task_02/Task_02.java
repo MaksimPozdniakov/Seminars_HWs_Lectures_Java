@@ -24,6 +24,7 @@ public class Task_02 {
         int count = 1;
         ArrayList<String> names = new ArrayList<>();
 
+        // формируем список имен
         for(String s2: book) {
             String[] newBooks = s2.split(" ");
 
@@ -32,7 +33,9 @@ public class Task_02 {
             }
         }
 
+        // считаем повторения
         Map<String, Integer> map = new TreeMap<String, Integer>();
+
         for (String firstName: names) {
             if (map.containsKey(firstName)) {
                 map.put(firstName, map.get(firstName) + 1);
@@ -41,20 +44,20 @@ public class Task_02 {
             }
         }
 
-        Map<Integer, List<String>> map1 = new TreeMap<>(Comparator.reverseOrder());
-
+        Map<Integer, List<String>> TreeMap = new TreeMap<>(Comparator.reverseOrder());
+        // формируем итоговый мап с сортировкой
         for (Map.Entry<String, Integer> entry: map.entrySet()) {
-            if (map1.containsKey(entry.getValue())) {
-                List<String> list1 = map1.get(entry.getValue());
+            if (TreeMap.containsKey(entry.getValue())) {
+                List<String> list1 = TreeMap.get(entry.getValue());
                 list1.add(entry.getKey());
             } else {
                 List<String> list1 = new ArrayList<>();
                 list1.add(entry.getKey());
-                map1.put(entry.getValue(), list1);
+                TreeMap.put(entry.getValue(), list1);
             }
         }
 
-        for (Map.Entry entry: map1.entrySet()) {
+        for (Map.Entry entry: TreeMap.entrySet()) {
             System.out.println(entry);
         }
     }
