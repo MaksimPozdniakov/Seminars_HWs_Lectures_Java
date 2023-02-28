@@ -20,11 +20,10 @@ public class Task_02 {
         parsAndCount(text);
     }
     static void parsAndCount (String s){
-        TreeMap<Integer, String> treeMap = new TreeMap<>(Collections.reverseOrder());
         String[] book = s.split(",");
         int count = 1;
-        StringBuilder ss = new StringBuilder();
         ArrayList<String> names = new ArrayList<>();
+
         for(String s2: book) {
             String[] newBooks = s2.split(" ");
 
@@ -32,26 +31,31 @@ public class Task_02 {
                 names.add(newBooks[i]);
             }
         }
-        for (int i = 0; i < names.size(); i++) {
-            count = 1;
-            for (int j = i+1; j < names.size(); j++) {
-                if (names.get(i).equals(names.get(j))) {
-                    names.remove(j);
-                j--;
-                count ++;
-                }
-            }
-//            System.out.printf("Имя %s повторяется %d раз", names.get(i), count);
-//            System.out.println();
 
-            if (count > 1) {
-                treeMap.put(count, names.get(i));
+        Map<String, Integer> map = new TreeMap<String, Integer>();
+        for (String firstName: names) {
+            if (map.containsKey(firstName)) {
+                map.put(firstName, map.get(firstName) + 1);
+            } else {
+                map.put(firstName, 1);
             }
         }
-        for (Map.Entry<Integer, String> entry: treeMap.entrySet()) {
+
+        Map<Integer, List<String>> map1 = new TreeMap<>(Comparator.reverseOrder());
+
+        for (Map.Entry<String, Integer> entry: map.entrySet()) {
+            if (map1.containsKey(entry.getValue())) {
+                List<String> list1 = map1.get(entry.getValue());
+                list1.add(entry.getKey());
+            } else {
+                List<String> list1 = new ArrayList<>();
+                list1.add(entry.getKey());
+                map1.put(entry.getValue(), list1);
+            }
+        }
+
+        for (Map.Entry entry: map1.entrySet()) {
             System.out.println(entry);
         }
     }
 }
-
-

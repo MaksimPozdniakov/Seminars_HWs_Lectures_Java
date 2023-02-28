@@ -25,6 +25,7 @@ public class Task_04 {
 
     static void ex1 (String s){
         TreeMap<Integer, List<String>> treeMap = new TreeMap<>(Collections.reverseOrder());
+
 //        TreeMap<Integer, List<String>> treeMap = new TreeMap<>(new Comparator<Integer>() {
 //            @Override
 //            public int compare(Integer o1, Integer o2) {
@@ -33,9 +34,13 @@ public class Task_04 {
 //        });
         String[] s1 = s.split("\n");
         for(String s2: s1){
+            System.out.println(s2);
             if (treeMap.containsKey(s2.length())){
                 List<String> list = treeMap.get(s2.length());
                 list.add(s2);
+
+
+
             } else {
                 List<String> list = new ArrayList<>();
                 list.add(s2);
@@ -43,8 +48,8 @@ public class Task_04 {
             }
         }
 //        System.out.println(treeMap);
-        for (Map.Entry<Integer, List<String>> entry: treeMap.entrySet()) {
-            System.out.println(entry);
-        }
+//        for (Map.Entry<Integer, List<String>> entry: treeMap.entrySet()) {
+//            System.out.println(entry);
+//        }
     }
 }
