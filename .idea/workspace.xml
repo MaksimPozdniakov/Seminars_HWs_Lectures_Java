@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW_3">
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_005_Map/Task_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_005_Map/Task_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_005_Map/Task_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_005_Map/Task_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_02.java" afterDir="false" />
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="L_06">
+      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_003/Seminar_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_003_ArrayList/Seminar_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_004/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_004_LinkedList/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_004/Seminar_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_004_LinkedList/Seminar_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Passports.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Passports.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Task_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Task_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Task_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_005/Task_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_005_HashMap/Task_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006/Task_03/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_03/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006/Task_03/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_03/Task_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006/Task_03/Vistavka.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_03/Vistavka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lectures.Lecture_006_Set.Task_01">
+  <component name="RunManager" selected="Application.Task_03">
     <configuration name="Lectures.Lecture_006_Set.Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_006_Set.Task_01" />
       <module name="Seminars_HWs_Java" />
@@ -109,19 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005_HashMap.Task" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminars.Seminar_005_HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005_HashMap.Task_01" />
       <module name="Seminars_HWs_Java" />
@@ -135,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_005_Map.Task_04" />
+    <configuration name="Task_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_006_Set.Task_02" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lectures.Lecture_005_Map.*" />
+          <option name="PATTERN" value="Lectures.Lecture_006_Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_006_Set.Task_03" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.Lecture_006_Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_03" />
+        <item itemvalue="Application.Task_02" />
         <item itemvalue="Application.Lectures.Lecture_006_Set.Task_01" />
         <item itemvalue="Application.Seminar_003" />
         <item itemvalue="Application.Task_01" />
-        <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Task_04" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677066943910</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="L_06">
+      <created>1677762293282</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677762293282</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -366,6 +355,7 @@
     <MESSAGE value="Sem_3" />
     <MESSAGE value="HW_02" />
     <MESSAGE value="HW_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_3" />
+    <MESSAGE value="L_06" />
+    <option name="LAST_COMMIT_MESSAGE" value="L_06" />
   </component>
 </project>
