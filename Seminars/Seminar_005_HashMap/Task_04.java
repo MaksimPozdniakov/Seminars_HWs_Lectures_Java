@@ -1,4 +1,4 @@
-package Seminars.Seminar_005;
+package Seminars.Seminar_005_HashMap;
 
 // Взять набор строк, например:
 

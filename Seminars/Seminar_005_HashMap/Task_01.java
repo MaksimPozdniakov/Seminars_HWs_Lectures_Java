@@ -1,4 +1,4 @@
-package Seminars.Seminar_005;
+package Seminars.Seminar_005_HashMap;
 
 // Задача №1.
 // Создать структуру для хранения Номеров паспортов и Фамилий сотрудников организации.

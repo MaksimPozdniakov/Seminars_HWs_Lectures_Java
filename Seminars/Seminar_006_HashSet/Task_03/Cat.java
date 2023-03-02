@@ -1,6 +1,4 @@
-package Seminars.Seminar_006.Task_03;
-
-import com.sun.source.tree.CatchTree;
+package Seminars.Seminar_006_HashSet.Task_03;
 
 import java.time.LocalDate;
 

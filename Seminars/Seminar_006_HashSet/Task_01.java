@@ -1,4 +1,4 @@
-package Seminars.Seminar_006;
+package Seminars.Seminar_006_HashSet;
 
 // 1. Создайте HashSet, заполните его следующими числами: {1, 2, 6, 2, 4, 5, 0, 3}.
 // Распечатайте содержимое данного множества.

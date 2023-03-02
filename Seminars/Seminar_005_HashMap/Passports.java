@@ -1,4 +1,4 @@
-package Seminars.Seminar_005;
+package Seminars.Seminar_005_HashMap;
 
 import java.util.HashMap;
 import java.util.Map;

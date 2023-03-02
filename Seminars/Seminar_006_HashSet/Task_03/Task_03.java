@@ -1,4 +1,4 @@
-package Seminars.Seminar_006.Task_03;
+package Seminars.Seminar_006_HashSet.Task_03;
 
 /*
 Продумайте структуру класса Кот. Какие поля и методы будут актуальны для приложения, которое является

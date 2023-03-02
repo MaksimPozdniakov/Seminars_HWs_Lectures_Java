@@ -1,4 +1,4 @@
-package Seminars.Seminar_004;
+package Seminars.Seminar_004_LinkedList;
 
 // Задача №1.
 // 1) Замерьте время, за которое в ArrayList добавятся 10000 элементов.

@@ -1,4 +1,4 @@
-package Seminars.Seminar_005;
+package Seminars.Seminar_005_HashMap;
 
 // Написать программу, определяющую правильность расстановки скобок в выражении.
 // Пример 1: a+(d*3) - истина
@@ -11,7 +11,6 @@ package Seminars.Seminar_005;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Stack;
 
 public class Task_03 {
     public static void main(String[] args) {

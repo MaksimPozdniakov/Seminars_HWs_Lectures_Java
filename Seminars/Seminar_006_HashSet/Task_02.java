@@ -1,4 +1,4 @@
-package Seminars.Seminar_006;
+package Seminars.Seminar_006_HashSet;
 
 // 1. Напишите метод, который заполнит массив из 1000 элементов случайными цифрами от 0 до 24.
 // 2. Создайте метод, в который передайте заполненный выше массив и с помощью Set вычислите процент уникальных значений
@@ -9,7 +9,6 @@ package Seminars.Seminar_006;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
 
 public class Task_02 {
     public static void main(String[] args) {

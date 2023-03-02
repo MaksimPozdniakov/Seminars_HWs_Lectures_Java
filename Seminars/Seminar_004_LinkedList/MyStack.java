@@ -1,8 +1,6 @@
-package Seminars.Seminar_004;
+package Seminars.Seminar_004_LinkedList;
 
 // size(), empty(), push(), peek(), pop()
-
-import java.util.Arrays;
 
 public class MyStack {
     private int[] arr = new int[10]; // private - это область видимости только в нутри текущего класса
