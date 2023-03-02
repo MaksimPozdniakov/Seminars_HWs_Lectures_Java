@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="L_06">
-      <change afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Introduction/Introduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Introduction/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lectures/Lecture_006_Set/Task_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task_03">
+  <component name="RunManager" selected="Application.Introduction">
+    <configuration name="Introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Introduction.Introduction" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_ALL.Lectures.Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lectures.Lecture_006_Set.Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lectures.Lecture_006_Set.Task_01" />
       <module name="Seminars_HWs_Java" />
@@ -84,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Seminars.Seminar_003_ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_005_HashMap.Task_01" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seminars.Seminar_005_HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Introduction" />
         <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
         <item itemvalue="Application.Lectures.Lecture_006_Set.Task_01" />
         <item itemvalue="Application.Seminar_003" />
-        <item itemvalue="Application.Task_01" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677762293282</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="L_06">
+      <created>1677764208494</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677764208494</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
