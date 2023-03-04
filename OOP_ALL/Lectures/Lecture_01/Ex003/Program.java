@@ -1,4 +1,4 @@
-package OOP_ALL.Lectures.Ex003;
+package OOP_ALL.Lectures.Lecture_01.Ex003;
 
 public class Program {
 

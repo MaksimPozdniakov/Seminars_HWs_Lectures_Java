@@ -1,4 +1,4 @@
-package OOP_ALL.Lectures.Ex001;
+package OOP_ALL.Lectures.Lecture_01.Ex001;
 
 public class PointMethod {
     static double distance(int x1, int y1, int x2, int y2) {

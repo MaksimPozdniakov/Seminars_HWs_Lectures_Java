@@ -1,4 +1,4 @@
-package OOP_ALL.Lectures.Ex006;
+package OOP_ALL.Lectures.Lecture_01.Ex006;
 
 public class Program {
     public static void main(String[] args) {
