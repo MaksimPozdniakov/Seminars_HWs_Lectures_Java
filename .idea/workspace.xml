@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="L_06">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Lecture_001/Task_01/Task_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Introduction">
+  <component name="RunManager" selected="Application.PointMethod">
     <configuration name="Introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Introduction.Introduction" />
       <module name="Seminars_HWs_Java" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seminar_003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_003.Seminar_003" />
+    <configuration name="PointMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_07.Ex001.PointMethod" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminars.Seminar_003_ArrayList.*" />
+          <option name="PATTERN" value="Lesson_07.Ex001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PointMethod" />
         <item itemvalue="Application.Introduction" />
         <item itemvalue="Application.Task_03" />
         <item itemvalue="Application.Task_02" />
         <item itemvalue="Application.Lectures.Lecture_006_Set.Task_01" />
-        <item itemvalue="Application.Seminar_003" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677830628795</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="L_06">
+      <created>1677919377821</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677919377821</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
