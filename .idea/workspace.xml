@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="L_06">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Lecture_001/Task_01/Task_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex001/PointMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex001/PointMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex002/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex002/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex002/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex002/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex003/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex003/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex003/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex003/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot1.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot2.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot3.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex004/Robot3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex005/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex006/Teams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/BaseHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/BaseHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Lectures/Ex007/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677919377821</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="L_06">
+      <created>1677920851530</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677920851530</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
