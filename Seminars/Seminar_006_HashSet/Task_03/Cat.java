@@ -7,11 +7,11 @@ public class Cat {
     String color;
     LocalDate datef;
 
-    Cat () {
-        name = "defolt";
-        color = "red";
-        datef = LocalDate.of(2010,1,20);
-    }
+//    Cat () {
+//        name = "defolt";
+//        color = "red";
+//        datef = LocalDate.of(2010,1,20);
+//    }
 
 
     public Cat(String name, String color, LocalDate datef) {
@@ -25,6 +25,7 @@ public class Cat {
         int age = date.getYear() - datef.getYear();
         return age;
     }
+
     @Override
     public String toString() {
 //        return super.toString(); // super - обращение к родительскому классу

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="OOP">
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="L_06">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2023_14_09__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2023_14_09__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW5/Task_01/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW5/Task_01/Task_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_03/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_006_HashSet/Task_03/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,39 +67,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OOP_ALL.Seminars.Seminar_01.Task_01.Program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Introduction.Introduction" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOP_ALL.Lectures.Introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOP_ALL.Seminars.Seminar_01.Introduction.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_01.Introduction.Program" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_ALL.Seminars.Seminar_01.Introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOP_ALL.Seminars.Seminar_01.Task_01.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_01.Task_01.Program" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_ALL.Seminars.Seminar_01.Task_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +95,37 @@
       </method>
     </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Lecture_01.Ex004.Program" />
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW6.Program" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP_ALL.Lectures.Lecture_01.Ex004.*" />
+          <option name="PATTERN" value="HomeWorks.HW6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminars.Seminar_006_HashSet.Task_03.Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminars.Seminar_006_HashSet.Task_03.Task_03" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminars.Seminar_006_HashSet.Task_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWorks.HW5.Task_01.Task_01" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWorks.HW5.Task_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_01.Task_01.Program" />
-        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_01.Introduction.Program" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Task_01" />
+        <item itemvalue="Application.Seminars.Seminar_006_HashSet.Task_03.Task_03" />
         <item itemvalue="Application.PointMethod" />
         <item itemvalue="Application.Introduction" />
       </list>
@@ -378,35 +383,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677920851530</updated>
     </task>
-    <task id="LOCAL-00034" summary="L_06">
-      <created>1677921128694</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1677921128694</updated>
-    </task>
-    <task id="LOCAL-00035" summary="L_06">
-      <created>1677921453193</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1677921453193</updated>
-    </task>
-    <task id="LOCAL-00036" summary="OOP">
-      <created>1677929355591</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1677929355591</updated>
-    </task>
-    <task id="LOCAL-00037" summary="OOP">
-      <created>1677942498865</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1677942498865</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -417,7 +394,6 @@
     <MESSAGE value="HW_02" />
     <MESSAGE value="HW_3" />
     <MESSAGE value="L_06" />
-    <MESSAGE value="OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="L_06" />
   </component>
 </project>

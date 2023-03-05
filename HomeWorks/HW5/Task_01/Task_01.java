@@ -32,6 +32,7 @@ public class Task_01 {
         Scanner iScanner = new Scanner(System.in);
         String search_word = iScanner.next();
         iScanner.close();
+
         boolean flag = true;
         for (HashMap<String, Object> el: jsonString) {
             String[] keys = el.keySet().toArray(new String[0]);
