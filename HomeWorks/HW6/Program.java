@@ -1,7 +1,5 @@
 package HomeWorks.HW6;
 
-import Seminars.Seminar_006_HashSet.Task_03.Cat;
-
 import java.util.*;
 
 /**
@@ -30,19 +28,20 @@ public class Program {
         Params laptop2 = new Params("16", "512", "Free DOS",
                 "1920х1080", "черный", "MSI");
         Params laptop3 = new Params("8", "256", "Windows 11 Home",
-                "1920х1080", "серый", "Huawei ");
+                "1920х1080", "серый", "Huawei");
         Params laptop4 = new Params("8", "512", "без операционной системы",
-                "1920х1080", "серый", "ASUS ");
+                "1920х1080", "серый", "ASUS");
         Params laptop5 = new Params("32", "1024", "Windows 11 Professional",
-                "3840х2160", "черный", "ASUS ");
+                "3840х2160", "черный", "ASUS");
         Params laptop6 = new Params("32", "1024", "Mac OS",
-                "3456х2234", "серый космос", "Apple ");
+                "3456х2234", "серый космос", "Apple");
         set_params.add(laptop1);
         set_params.add(laptop2);
         set_params.add(laptop3);
         set_params.add(laptop4);
         set_params.add(laptop5);
         set_params.add(laptop6);
+
         menu(set_params, scanner);
     }
 
@@ -78,32 +77,38 @@ public class Program {
             System.out.print("\tКак будем искать? : ");
             String newSelection = scanner.nextLine();
 
+
+
             if (newSelection.equals("1")) {
-                search(set_params);
-//                System.out.print("\tКакой объем оперативной памяти интересует? : ");
-//                newSelection = scanner.nextLine();
-
-            } else if (newSelection.equals("2")) {
-                System.out.print("\tКакой объем оперативной SSD интересует? : ");
+                System.out.print("\tКакой объем оперативной памяти интересует? : ");
                 newSelection = scanner.nextLine();
-
-            }else if (newSelection.equals("3")) {
-                System.out.print("\tКакая операционная система интересует? : ");
-                newSelection = scanner.nextLine();
-
-            }else if (newSelection.equals("4")) {
-                System.out.print("\tКакой цвет интересует? : ");
-                newSelection = scanner.nextLine();
-
-            }else if (newSelection.equals("5")) {
-                System.out.print("\tКакой производитель интересует? : ");
-                newSelection = scanner.nextLine();
-
+                search(set_params, newSelection);
             }
+
+
+
+
+//            else if (newSelection.equals("2")) {
+//                System.out.print("\tКакой объем оперативной SSD интересует? : ");
+//                newSelection = scanner.nextLine();
+//
+//            }else if (newSelection.equals("3")) {
+//                System.out.print("\tКакая операционная система интересует? : ");
+//                newSelection = scanner.nextLine();
+//
+//            }else if (newSelection.equals("4")) {
+//                System.out.print("\tКакой цвет интересует? : ");
+//                newSelection = scanner.nextLine();
+//
+//            }else if (newSelection.equals("5")) {
+//                System.out.print("\tКакой производитель интересует? : ");
+//                newSelection = scanner.nextLine();
+//
+//            }
 
         }
 
-        scanner.close();
+//        scanner.close();
     }
 
 
@@ -118,7 +123,10 @@ public class Program {
         System.out.println(new_list + "\n");
     }
 
-    public static void search(Set<Params> set_params) {
+
+
+
+    public static void search(Set<Params> set_params, String selection) {
         HashMap<Integer, ArrayList<Object>> ourLaptopsMap = new HashMap<>();
         int num = 1;
 
@@ -128,25 +136,21 @@ public class Program {
             num++;
         }
 
-//        HashMap<String,Object> map = new HashMap<String,Object>();
-//        Collection<String> collection= map.keySet();
-//
-//        Object desiredObject = new Object();//что хотим найти
-//
-//        for (String key : collection) {
-//            Object obj = map.get(key);
-//            if (key != null) {
-//                if (desiredObject.equals(obj)) {
-//                    return key;// нашли наше значение и возвращаем  ключ
-//                }
+
+//        for (ArrayList<Object> el: ourLaptopsMap.values()) {
+//            if (el.toString().contains(selection + "гигабайт")) {
+//                System.out.println(el);
 //            }
 //        }
 
-        for (Map.Entry<Integer, ArrayList<Object>> el: ourLaptopsMap.entrySet()) {
-            System.out.println(el);
-        }
-
-//        return set_params;
+//        for (Map.Entry<Integer, ArrayList<Object>> el: ourLaptopsMap.entrySet()) {
+//            System.out.println(el);
+//        }
     }
-
 }
+
+
+
+
+
+

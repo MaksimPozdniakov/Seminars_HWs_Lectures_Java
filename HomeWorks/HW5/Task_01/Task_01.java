@@ -27,6 +27,7 @@ public class Task_01 {
     }
 
     static void StringHashMap (List<HashMap<String, Object>> jsonString) {
+
         HashMap<String, String> map = new HashMap<>();
         System.out.println("Что вы ищите? ");
         Scanner iScanner = new Scanner(System.in);
