@@ -23,17 +23,17 @@ public class Program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Set<Params> set_params = new HashSet<>();
-        Params laptop1 = new Params("8", "256", "Windows 10 Home",
+        Params laptop1 = new Params("8 гигабайт", "256 гигабайт", "Windows 10 Home",
                 "1920х1080", "серый", "HIPER");
-        Params laptop2 = new Params("16", "512", "Free DOS",
+        Params laptop2 = new Params("16 гигабайт", "512 гигабайт", "Free DOS",
                 "1920х1080", "черный", "MSI");
-        Params laptop3 = new Params("8", "256", "Windows 11 Home",
+        Params laptop3 = new Params("8 гигабайт", "256 гигабайт", "Windows 11 Home",
                 "1920х1080", "серый", "Huawei");
-        Params laptop4 = new Params("8", "512", "без операционной системы",
+        Params laptop4 = new Params("8 гигабайт", "512 гигабайт", "без операционной системы",
                 "1920х1080", "серый", "ASUS");
-        Params laptop5 = new Params("32", "1024", "Windows 11 Professional",
+        Params laptop5 = new Params("32 гигабайт", "1024 гигабайт", "Windows 11 Professional",
                 "3840х2160", "черный", "ASUS");
-        Params laptop6 = new Params("32", "1024", "Mac OS",
+        Params laptop6 = new Params("32 гигабайт", "1024 гигабайт", "Mac OS",
                 "3456х2234", "серый космос", "Apple");
         set_params.add(laptop1);
         set_params.add(laptop2);
@@ -44,8 +44,6 @@ public class Program {
 
         menu(set_params, scanner);
     }
-
-
 
 
     public static void menu(Set<Params> set_params, Scanner scanner) {
@@ -65,8 +63,9 @@ public class Program {
         nextPage.put(1, "Оперативная память");
         nextPage.put(2, "Объем SSD");
         nextPage.put(3, "Операционная система");
-        nextPage.put(4, "Цвет");
-        nextPage.put(5, "Производитель");
+        nextPage.put(4, "Разрешение экрана");
+        nextPage.put(5, "Цвет");
+        nextPage.put(6, "Производитель");
 
         if (selection.equals("1")) {
             showAll(set_params);
@@ -77,40 +76,35 @@ public class Program {
             System.out.print("\tКак будем искать? : ");
             String newSelection = scanner.nextLine();
 
-
-
             if (newSelection.equals("1")) {
                 System.out.print("\tКакой объем оперативной памяти интересует? : ");
                 newSelection = scanner.nextLine();
                 search(set_params, newSelection);
+            } else if (newSelection.equals("2")) {
+                System.out.print("\tКакой объем оперативной SSD интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
+            }else if (newSelection.equals("3")) {
+                System.out.print("\tКакая операционная система интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
+            }else if (newSelection.equals("4")) {
+                System.out.print("\tКакой цвет интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
+            }else if (newSelection.equals("5")) {
+                System.out.print("\tКакой цвет интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
+            }else if (newSelection.equals("6")) {
+                System.out.print("\tКакой производитель интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
             }
-
-
-
-
-//            else if (newSelection.equals("2")) {
-//                System.out.print("\tКакой объем оперативной SSD интересует? : ");
-//                newSelection = scanner.nextLine();
-//
-//            }else if (newSelection.equals("3")) {
-//                System.out.print("\tКакая операционная система интересует? : ");
-//                newSelection = scanner.nextLine();
-//
-//            }else if (newSelection.equals("4")) {
-//                System.out.print("\tКакой цвет интересует? : ");
-//                newSelection = scanner.nextLine();
-//
-//            }else if (newSelection.equals("5")) {
-//                System.out.print("\tКакой производитель интересует? : ");
-//                newSelection = scanner.nextLine();
-//
-//            }
-
         }
 
-//        scanner.close();
+        scanner.close();
     }
-
 
 
     public static void showAll(Set<Params> set_params) {
@@ -124,8 +118,6 @@ public class Program {
     }
 
 
-
-
     public static void search(Set<Params> set_params, String selection) {
         HashMap<Integer, ArrayList<Object>> ourLaptopsMap = new HashMap<>();
         int num = 1;
@@ -136,16 +128,12 @@ public class Program {
             num++;
         }
 
-
-//        for (ArrayList<Object> el: ourLaptopsMap.values()) {
-//            if (el.toString().contains(selection + "гигабайт")) {
-//                System.out.println(el);
-//            }
-//        }
-
-//        for (Map.Entry<Integer, ArrayList<Object>> el: ourLaptopsMap.entrySet()) {
-//            System.out.println(el);
-//        }
+        num = 1;
+        for (ArrayList<Object> el: ourLaptopsMap.values()) {
+            if (el.toString().contains(selection)) {
+                System.out.printf("Ноутбук %d : %s", num, el + "\n");
+            }
+        }
     }
 }
 
