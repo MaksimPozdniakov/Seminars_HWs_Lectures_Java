@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="OOP">
-      <change afterPath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Introduction/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Introduction/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Introduction/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Introduction/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_01/Task_01/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677929355591</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="OOP">
+      <created>1677942498865</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1677942498865</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
