@@ -79,26 +79,31 @@ public class Program {
             if (newSelection.equals("1")) {
                 System.out.print("\tКакой объем оперативной памяти интересует? : ");
                 newSelection = scanner.nextLine();
+                newSelection = newSelection + " гигабайт";
                 search(set_params, newSelection);
             } else if (newSelection.equals("2")) {
                 System.out.print("\tКакой объем оперативной SSD интересует? : ");
                 newSelection = scanner.nextLine();
+                newSelection = newSelection + " гигабайт";
                 search(set_params, newSelection);
-            }else if (newSelection.equals("3")) {
+            } else if (newSelection.equals("3")) {
                 System.out.print("\tКакая операционная система интересует? : ");
                 newSelection = scanner.nextLine();
+                newSelection = newSelection.substring(0, 1).toUpperCase() + newSelection.substring(1);
                 search(set_params, newSelection);
-            }else if (newSelection.equals("4")) {
+            } else if (newSelection.equals("4")) {
+                System.out.print("\tПример поиска: 1920х1080");
+                System.out.print("\tКакое разрешение экрана интересует? : ");
+                newSelection = scanner.nextLine();
+                search(set_params, newSelection);
+            } else if (newSelection.equals("5")) {
                 System.out.print("\tКакой цвет интересует? : ");
                 newSelection = scanner.nextLine();
                 search(set_params, newSelection);
-            }else if (newSelection.equals("5")) {
-                System.out.print("\tКакой цвет интересует? : ");
-                newSelection = scanner.nextLine();
-                search(set_params, newSelection);
-            }else if (newSelection.equals("6")) {
+            } else if (newSelection.equals("6")) {
                 System.out.print("\tКакой производитель интересует? : ");
                 newSelection = scanner.nextLine();
+                newSelection = newSelection.substring(0, 1).toUpperCase() + newSelection.substring(1);
                 search(set_params, newSelection);
             }
         }
@@ -120,8 +125,8 @@ public class Program {
 
     public static void search(Set<Params> set_params, String selection) {
         HashMap<Integer, ArrayList<Object>> ourLaptopsMap = new HashMap<>();
-        int num = 1;
 
+        int num = 1;
         for (Params item: set_params) {
             ArrayList <Object> ourLaptops = new ArrayList<>(List.of(item.toString().split(",")));
             ourLaptopsMap.put(num, ourLaptops);
@@ -132,6 +137,7 @@ public class Program {
         for (ArrayList<Object> el: ourLaptopsMap.values()) {
             if (el.toString().contains(selection)) {
                 System.out.printf("Ноутбук %d : %s", num, el + "\n");
+                num++;
             }
         }
     }
