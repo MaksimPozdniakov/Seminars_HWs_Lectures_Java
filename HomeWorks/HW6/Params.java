@@ -8,12 +8,12 @@ package HomeWorks.HW6;
  */
 
 public class Params {
-    private String ram;
-    private String hard_disk;
-    private String operating_system;
-    private String screen_resolution;
-    private String color;
-    private String brand_name;
+    String ram;
+    String hard_disk;
+    String operating_system;
+    String screen_resolution;
+    String color;
+    String brand_name;
 
 
     public Params(String ram, String hard_disk, String operating_system, String screen_resolution, String color,
@@ -26,27 +26,6 @@ public class Params {
         this.color = color;
         this.brand_name = brand_name;
     }
-//    public String getRam() {
-//        return ram;
-//    }
-//
-//    public String getHard_disk() {
-//        return hard_disk;
-//    }
-//
-//    public String getOperating_system() {
-//        return operating_system;
-//    }
-//
-//    public String getScreen_resolution() {
-//        return screen_resolution;
-//    }
-//    public String getColor() {
-//        return color;
-//    }
-//    public String getBrand_name() {
-//        return brand_name;
-//    }
 
     @Override
     public String toString() {

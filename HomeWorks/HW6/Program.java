@@ -1,5 +1,7 @@
 package HomeWorks.HW6;
 
+import OOP_ALL.Seminars.Seminar_01.Task_01.Vehicle;
+
 import java.util.*;
 
 /**
@@ -141,6 +143,7 @@ public class Program {
             }
         }
     }
+
 }
 
 

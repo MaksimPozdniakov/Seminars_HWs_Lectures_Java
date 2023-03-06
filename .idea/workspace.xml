@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOP_ALL.Seminars.Seminar_01.Task_01.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_01.Task_01.Program" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_ALL.Seminars.Seminar_01.Task_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWorks.HW6.Program" />
       <module name="Seminars_HWs_Java" />
@@ -118,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_01.Task_01.Program" />
         <item itemvalue="Application.Task_01" />
         <item itemvalue="Application.Seminars.Seminar_006_HashSet.Task_03.Task_03" />
         <item itemvalue="Application.Introduction" />
@@ -385,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678108177166</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="HW6">
+      <created>1678108252500</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1678108252500</updated>
+    </task>
+    <task id="LOCAL-00038" summary="HW6">
+      <created>1678108347078</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678108347078</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
