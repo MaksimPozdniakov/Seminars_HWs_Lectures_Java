@@ -69,7 +69,7 @@ public class Program {
         nextPage.put(6, "Производитель");
 
         if (selection.equals("1")) {
-            showAll(set_params);
+            showAll(set_params, scanner);
         } else if (selection.equals("2")) {
             for (Map.Entry<Integer, String> elem: nextPage.entrySet()) {
                 System.out.println(elem);
@@ -81,31 +81,31 @@ public class Program {
                 System.out.print("\tКакой объем оперативной памяти интересует? : ");
                 newSelection = scanner.nextLine();
                 newSelection = newSelection + " гигабайт";
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             } else if (newSelection.equals("2")) {
                 System.out.print("\tКакой объем оперативной SSD интересует? : ");
                 newSelection = scanner.nextLine();
                 newSelection = newSelection + " гигабайт";
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             } else if (newSelection.equals("3")) {
                 System.out.print("\tКакая операционная система интересует? : ");
                 newSelection = scanner.nextLine();
                 newSelection = newSelection.substring(0, 1).toUpperCase() + newSelection.substring(1);
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             } else if (newSelection.equals("4")) {
                 System.out.print("\tПример поиска: 1920х1080");
                 System.out.print("\tКакое разрешение экрана интересует? : ");
                 newSelection = scanner.nextLine();
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             } else if (newSelection.equals("5")) {
                 System.out.print("\tКакой цвет интересует? : ");
                 newSelection = scanner.nextLine();
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             } else if (newSelection.equals("6")) {
                 System.out.print("\tКакой производитель интересует? : ");
                 newSelection = scanner.nextLine();
                 newSelection = newSelection.substring(0, 1).toUpperCase() + newSelection.substring(1);
-                search(set_params, newSelection);
+                search(set_params, newSelection, scanner);
             }
         } else if (selection.equals("3")) {
             addNewDev(set_params, scanner);
@@ -113,7 +113,7 @@ public class Program {
     }
 
 
-    public static void showAll(Set<Params> set_params) {
+    public static void showAll(Set<Params> set_params, Scanner scanner) {
         StringBuilder new_list = new StringBuilder();
         int num = 1;
         for (Params item: set_params) {
@@ -121,10 +121,15 @@ public class Program {
             num++;
         }
         System.out.println(new_list + "\n");
+
+        System.out.print("Есть еще вопросы? (Да/Нет) : ");
+        String answer = scanner.nextLine();
+        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
+        if (answer.equals("Да")) {menu(set_params, scanner);}
     }
 
 
-    public static void search(Set<Params> set_params, String selection) {
+    public static void search(Set<Params> set_params, String selection, Scanner scanner) {
         HashMap<Integer, ArrayList<Object>> ourLaptopsMap = new HashMap<>();
 
         int num = 1;
@@ -141,6 +146,10 @@ public class Program {
                 num++;
             }
         }
+        System.out.print("Есть еще вопросы? (Да/Нет) : ");
+        String answer = scanner.nextLine();
+        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
+        if (answer.equals("Да")) {menu(set_params, scanner);}
     }
 
 
@@ -153,18 +162,21 @@ public class Program {
         hard_disk = hard_disk + " гигабайт";
         System.out.print("Какая операционная система? : ");
         String operating_system = scanner.nextLine();
+        operating_system = operating_system.substring(0, 1).toUpperCase() + operating_system.substring(1);
         System.out.print("Какое разрешение экрана? : ");
         String screen_resolution = scanner.nextLine();
         System.out.print("Какой цвет? : ");
         String color = scanner.nextLine();
         System.out.print("Какой производитель? : ");
         String brand_name = scanner.nextLine();
+        brand_name = brand_name.substring(0, 1).toUpperCase() + brand_name.substring(1);
 
         Params laptop = new Params(ram,hard_disk,operating_system,screen_resolution,color,brand_name);
         set_params.add(laptop);
 
         System.out.print("Есть еще вопросы? (Да/Нет) : ");
         String answer = scanner.nextLine();
+        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
         if (answer.equals("Да")) {menu(set_params, scanner);}
     }
 }
