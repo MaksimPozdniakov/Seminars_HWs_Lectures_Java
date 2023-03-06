@@ -1,7 +1,5 @@
 package HomeWorks.HW6;
 
-import OOP_ALL.Seminars.Seminar_01.Task_01.Vehicle;
-
 import java.util.*;
 
 /**
@@ -53,6 +51,7 @@ public class Program {
         Map<Integer, String> navigation = new TreeMap<>();
         navigation.put(1,"Показать все");
         navigation.put(2, "Поиск устройства");
+        navigation.put(3, "Добавить новое устройство");
 
         for (Map.Entry<Integer, String> elem: navigation.entrySet()) {
             System.out.println(elem);
@@ -71,7 +70,7 @@ public class Program {
 
         if (selection.equals("1")) {
             showAll(set_params);
-        } else {
+        } else if (selection.equals("2")) {
             for (Map.Entry<Integer, String> elem: nextPage.entrySet()) {
                 System.out.println(elem);
             }
@@ -108,9 +107,9 @@ public class Program {
                 newSelection = newSelection.substring(0, 1).toUpperCase() + newSelection.substring(1);
                 search(set_params, newSelection);
             }
+        } else if (selection.equals("3")) {
+            addNewDev(set_params, scanner);
         }
-
-        scanner.close();
     }
 
 
@@ -144,6 +143,30 @@ public class Program {
         }
     }
 
+
+    public static void addNewDev(Set<Params> set_params, Scanner scanner) {
+        System.out.print("Какой объем оперативной памяти? : ");
+        String ram = scanner.nextLine();
+        ram = ram + " гигабайт";
+        System.out.print("Какой объем оперативной SSD? : ");
+        String hard_disk = scanner.nextLine();
+        hard_disk = hard_disk + " гигабайт";
+        System.out.print("Какая операционная система? : ");
+        String operating_system = scanner.nextLine();
+        System.out.print("Какое разрешение экрана? : ");
+        String screen_resolution = scanner.nextLine();
+        System.out.print("Какой цвет? : ");
+        String color = scanner.nextLine();
+        System.out.print("Какой производитель? : ");
+        String brand_name = scanner.nextLine();
+
+        Params laptop = new Params(ram,hard_disk,operating_system,screen_resolution,color,brand_name);
+        set_params.add(laptop);
+
+        System.out.print("Есть еще вопросы? (Да/Нет) : ");
+        String answer = scanner.nextLine();
+        if (answer.equals("Да")) {menu(set_params, scanner);}
+    }
 }
 
 

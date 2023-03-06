@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/HW6/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678108347078</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="HW6">
+      <created>1678108701070</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1678108701070</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
