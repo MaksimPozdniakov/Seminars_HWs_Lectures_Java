@@ -24,17 +24,17 @@ public class Program {
         Scanner scanner = new Scanner(System.in);
         Set<Params> set_params = new HashSet<>();
         Params laptop1 = new Params("8 гигабайт", "256 гигабайт", "Windows 10 Home",
-                "1920х1080", "серый", "HIPER");
+                "1920x1080", "серый", "Hiper");
         Params laptop2 = new Params("16 гигабайт", "512 гигабайт", "Free DOS",
-                "1920х1080", "черный", "MSI");
+                "1920x1080", "черный", "Msi");
         Params laptop3 = new Params("8 гигабайт", "256 гигабайт", "Windows 11 Home",
-                "1920х1080", "серый", "Huawei");
+                "1920x1080", "серый", "Huawei");
         Params laptop4 = new Params("8 гигабайт", "512 гигабайт", "без операционной системы",
-                "1920х1080", "серый", "ASUS");
+                "1920x1080", "серый", "Asus");
         Params laptop5 = new Params("32 гигабайт", "1024 гигабайт", "Windows 11 Professional",
-                "3840х2160", "черный", "ASUS");
+                "3840x2160", "черный", "Asus");
         Params laptop6 = new Params("32 гигабайт", "1024 гигабайт", "Mac OS",
-                "3456х2234", "серый космос", "Apple");
+                "3456x2234", "серый космос", "Apple");
         set_params.add(laptop1);
         set_params.add(laptop2);
         set_params.add(laptop3);
