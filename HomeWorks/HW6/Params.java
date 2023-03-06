@@ -27,6 +27,7 @@ public class Params {
         this.brand_name = brand_name;
     }
 
+
     @Override
     public String toString() {
         return  "Оперативная память: " + ram  +
