@@ -26,27 +26,27 @@ public class Params {
         this.color = color;
         this.brand_name = brand_name;
     }
-    public String getRam() {
-        return ram;
-    }
-
-    public String getHard_disk() {
-        return hard_disk;
-    }
-
-    public String getOperating_system() {
-        return operating_system;
-    }
-
-    public String getScreen_resolution() {
-        return screen_resolution;
-    }
-    public String getColor() {
-        return color;
-    }
-    public String getBrand_name() {
-        return brand_name;
-    }
+//    public String getRam() {
+//        return ram;
+//    }
+//
+//    public String getHard_disk() {
+//        return hard_disk;
+//    }
+//
+//    public String getOperating_system() {
+//        return operating_system;
+//    }
+//
+//    public String getScreen_resolution() {
+//        return screen_resolution;
+//    }
+//    public String getColor() {
+//        return color;
+//    }
+//    public String getBrand_name() {
+//        return brand_name;
+//    }
 
     @Override
     public String toString() {
