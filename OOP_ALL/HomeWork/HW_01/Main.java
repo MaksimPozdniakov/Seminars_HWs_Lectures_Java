@@ -28,14 +28,7 @@ public class Main {
         goods.add(goods7);
         goods.add(goods8);
 
-        showAll(goods);
+        Program.showAll(goods);
 
-    }
-    public static void showAll(HashSet<Goods> goods) {
-        int num = 1;
-        for (Goods item: goods) {
-            System.out.printf("Продукт %d : %s \n",num,item);
-            num++;
-        }
     }
 }
