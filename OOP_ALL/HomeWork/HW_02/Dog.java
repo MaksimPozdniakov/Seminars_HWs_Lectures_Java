@@ -5,7 +5,7 @@ public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffecti
     private String presenceTraining;
 
     public Dog(Integer height, Integer weight, String eyeColor, String nickname, String species, String vaccinations,
-               String woolColor, Integer dateBirth,String presenceTraining) {
+               String woolColor, String dateBirth,String presenceTraining) {
         super(height, weight, eyeColor, nickname, species, vaccinations, woolColor, dateBirth);
         this.presenceTraining = presenceTraining;
     }

@@ -5,7 +5,7 @@ public class Cat extends Pets implements MakeSound,ShowAffection,AnimalInformati
     private String presenceWool;
 
     public Cat(Integer height, Integer weight, String eyeColor, String nickname, String species, String vaccinations,
-               String woolColor, Integer dateBirth, String presenceWool) {
+               String woolColor, String dateBirth, String presenceWool) {
         super(height, weight, eyeColor, nickname, species, vaccinations, woolColor, dateBirth);
         this.presenceWool = presenceWool;
     }
@@ -24,8 +24,8 @@ public class Cat extends Pets implements MakeSound,ShowAffection,AnimalInformati
         System.out.println("Проявляю ласку");
     }
     public String toString(){
-        return "Рост: " + height + ", Вес: " + weight + ", Цвет глаз: " + eyeColor + ", Кличка: " + nickname + ", Порода: "
-                + species + ", Наличие прививок: " + vaccinations + ", Цвет шерсти: " + woolColor + ", Дата рождения: "
-                + dateBirth + ", Наличие шерсти: " + presenceWool;
+        return "Рост: " + height + "см" + ", Вес: " + weight + "кг" + ", Цвет глаз: " + eyeColor + ", " +
+                "Кличка: " + nickname + ", Порода: " + species + ", Наличие прививок: " + vaccinations + ", " +
+                "Цвет шерсти: " + woolColor + ", Дата рождения: " + dateBirth + ", Наличие шерсти: " + presenceWool;
     }
 }

@@ -6,11 +6,11 @@ public abstract class Pets extends Animal implements MakeSound,ShowAffection {
     protected String species;
     protected String vaccinations;
     protected String woolColor;
-    protected Integer dateBirth;
+    protected String dateBirth;
 
 
     public Pets(Integer height,Integer weight,String eyeColor,String nickname,String species,String vaccinations,
-                String woolColor,Integer dateBirth) {
+                String woolColor,String dateBirth) {
         super(height, weight, eyeColor);
         this.nickname = nickname;
         this.species = species;

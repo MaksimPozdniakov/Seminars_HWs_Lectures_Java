@@ -16,7 +16,7 @@ public class Chicken extends Bird implements AnimalInformation,Fly,MakeSound {
         System.out.println("Я хочу летать, но не умею");
     }
     public String toString(){
-        return "Рост: " + height + "Вес: " + weight + "Цвет глаз: " + eyeColor + "Высота полета: " +
-                getFlightAltitude() + "метров";
+        return "Рост: " + height + " см, " + "Вес: " + weight + " кг, " + "Цвет глаз: " + eyeColor +
+                ", Высота полета: " + getFlightAltitude() + " метров";
     }
 }

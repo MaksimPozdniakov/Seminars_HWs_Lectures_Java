@@ -1,6 +1,5 @@
 package OOP_ALL.HomeWork.HW_02;
 
-import OOP_ALL.Seminars.Seminar_02.Play;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,20 +15,30 @@ public class Zoo implements Iterable<Animal>{
     }
 
     public void showAllAnimal(){
-        for (int i = 0; i < this.animals.size(); i++) {
-            System.out.println(this.animals.get(i).getClass().getSimpleName());
-            System.out.println(this.animals.get(i));
+        for (Animal animal : this.animals) {
+            System.out.printf("%s: %s \n", animal.getClass().getSimpleName(),animal);
         }
     }
 
-
-    public void makeSoundAnimal() {
-        for (int i = 0; i < this.animals.size(); i++) {
-            if (this.animals.get(i) instanceof MakeSound){
-                ((MakeSound) this.animals.get(i)).makeSoundAnimal();
-            }
-        }
+    public void showInformation(int num){
+        this.animals.get(num - 1).showInformation();
+        System.out.println();
     }
+
+    public void makeSoundAnimal(int num) {
+        this.animals.get(num - 1).makeSoundAnimal();
+        System.out.println();
+    }
+
+//    public void showAffection(int num) {
+//        for (Animal animal : this.animals) {
+//            if (animal instanceof ShowAffection) {
+//                ((ShowAffection) animal).showAffection();
+//            }
+//        }
+//        this.animals.get(num - 1).showAffection();
+//        System.out.println();
+//    }
 
     public Iterator<Animal> iterator() {
         return animals.iterator();
