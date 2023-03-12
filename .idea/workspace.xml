@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/AnimalInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/MakeSound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Pets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/ShowAffection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Stork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Training.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/WildAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678533876650</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="HW6">
+      <created>1678628293816</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1678628293816</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

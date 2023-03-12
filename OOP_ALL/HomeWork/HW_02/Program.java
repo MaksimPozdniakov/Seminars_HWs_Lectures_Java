@@ -17,6 +17,7 @@ public class Program {
         int ourSelection = navigationMenu(ourScanner);
         choiceMenu(ourSelection, zoo);
     }
+
     public static int navigationMenu(Scanner ourScanner) {
         HashMap<Integer, String> menu = new HashMap<>();
         menu.put(1, "Показать всех животных в зоопарке");
@@ -28,16 +29,13 @@ public class Program {
         System.out.print("Сделайте выбор: ");
         return ourScanner.nextInt();
     }
+
     public static void choiceMenu(int ourSelection,Zoo zoo) {
-        while (true){
-            switch (ourSelection){
-                case 1:
-                    zoo.showAllAnimal();
-                case 2:
-                    zoo.addAnimals(new Chicken(5,5,"Green", 0));
-                case 10:
-                    break;
-            }
+        switch (ourSelection){
+            case 1:
+                zoo.showAllAnimal();
+            case 2:
+                zoo.addAnimals(new Chicken(5,5,"Green", 0));
         }
     }
 }
