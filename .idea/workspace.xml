@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/WildAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/WildAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -489,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678643759139</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="HW6">
+      <created>1678709128114</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678709128114</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -19,14 +19,13 @@ public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffecti
     public void makeSoundAnimal(){
         System.out.println("Гав");
     }
-
     public void showAffection() {
         System.out.println("Проявляю ласку");
     }
-
     public void training(){
         System.out.println("Прохожу дрессировку");
     }
+
     public String toString(){
         return "Рост: " + height + "Вес: " + weight + "Цвет глаз: " + eyeColor + "Кличка: " + nickname + "Порода: "
                 + species + "Наличие прививок: " + vaccinations + "Цвет шерсти: " + woolColor + "Дата рождения: "

@@ -14,7 +14,6 @@ public class Zoo implements Iterable<Animal>{
         this.animals = new ArrayList<>();
     }
 
-
     public void addAnimals(Animal animal){
         this.animals.add(animal);
     }
@@ -41,15 +40,21 @@ public class Zoo implements Iterable<Animal>{
 
 
 
-//    public void showAffection(int num) {
-//        for (Animal animal : this.animals) {
-//            if (animal instanceof ShowAffection) {
-//                ((ShowAffection) animal).showAffection();
-//            }
-//        }
-//        this.animals.get(num - 1).showAffection();
-//        System.out.println();
-//    }
+    public void communication(int num) {
+        Animal animal = this.animals.get(num - 1);
+        if (animal instanceof ShowAffection) {
+            ((ShowAffection) animal).showAffection();
+        } else if (animal instanceof Fly) {
+            ((Fly) animal).fly();
+        }
+    }
+
+    public void trainingAnimal(int num) {
+        Animal animal = this.animals.get(num - 1);
+        if (animal instanceof Training) {
+            ((Training) animal).training();
+        }
+    }
 
     public Iterator<Animal> iterator() {
         return animals.iterator();

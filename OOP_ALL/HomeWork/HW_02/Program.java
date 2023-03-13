@@ -63,7 +63,8 @@ public class Program {
         } else if (zoo.checkClass(newSelection).equals("Chicken") || zoo.checkClass(newSelection).equals("Stork")){
             menu.put(3, "Полетать");
         } else if (zoo.checkClass(newSelection).equals("Dog")){
-            menu.put(3, "Дрессировать");
+            menu.put(3, "Проявить ласку");
+            menu.put(4, "Дрессировать");
         }
 
         for (Map.Entry<Integer, String> el : menu.entrySet()) {
@@ -79,6 +80,11 @@ public class Program {
             case 2:
                 zoo.makeSoundAnimal(newSelection);
                 break;
+            case 3:
+                zoo.communication(newSelection);
+            case 4:
+                zoo.trainingAnimal(newSelection);
         }
     }
 }
+
