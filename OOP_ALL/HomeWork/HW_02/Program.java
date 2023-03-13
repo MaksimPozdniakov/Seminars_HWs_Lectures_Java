@@ -45,7 +45,7 @@ public class Program {
                 int newSelection = ourScanner.nextInt();
                 informationAboutAnimal(zoo, ourScanner, newSelection);
             case 2:
-//                zoo.addAnimals(new Chicken(5,5,"Green", 0)); // разбираюсь
+                addNewAnimals(ourScanner);
         }
     }
 
@@ -106,7 +106,8 @@ public class Program {
         System.out.print("Вес: ");
         Integer weight = ourScanner.nextInt();
         System.out.print("Цвет глаз: ");
-        String eyeColor = ourScanner.nextLine();
+        String eyeColor = ourScanner.next();
+
 
 
         switch (selection){
@@ -119,16 +120,18 @@ public class Program {
                 String vaccinations = ourScanner.nextLine();
                 System.out.print("Цвет шерсти: ");
                 String woolColor = ourScanner.nextLine();
-                System.out.print("Дата рождения : ");
+                System.out.print("Дата рождения: ");
                 String dateBirth = ourScanner.nextLine();
                 System.out.print("Наличие шерсти (Да/Нет): ");
                 String presenceWool = ourScanner.nextLine();
                 zoo.addAnimals(new Cat(height,weight,eyeColor, nickname, species, vaccinations,
                         woolColor, dateBirth,presenceWool));
+                break;
             case 2:
                 System.out.print("Высота полёта: ");
                 double flightAltitude = ourScanner.nextDouble();
                 zoo.addAnimals(new Chicken(height,weight,eyeColor,flightAltitude));
+                break;
             case 3:
                 System.out.print("Кличка: ");
                 String nickname2 = ourScanner.nextLine();
@@ -138,31 +141,40 @@ public class Program {
                 String vaccinations2 = ourScanner.nextLine();
                 System.out.print("Цвет шерсти: ");
                 String woolColor2 = ourScanner.nextLine();
-                System.out.print("Дата рождения : ");
+                System.out.print("Дата рождения: ");
                 String dateBirth2 = ourScanner.nextLine();
                 System.out.print("Наличие дрессировки (Да/Нет): ");
                 String presenceTraining = ourScanner.nextLine();
                 zoo.addAnimals(new Dog(height,weight,eyeColor,nickname2,species2,vaccinations2,
                         woolColor2,dateBirth2,presenceTraining));
+                break;
             case 4:
                 System.out.print("Высота полёта: ");
                 double flightAltitude2 = ourScanner.nextDouble();
                 zoo.addAnimals(new Stork(height,weight,eyeColor,flightAltitude2));
+                break;
             case 5:
-                System.out.print("Место обитания");
+                System.out.print("Место обитания: ");
                 String habitat = ourScanner.nextLine();
-                System.out.print("Дата нахождения");
+                System.out.print("Дата нахождения: ");
                 String dateFound = ourScanner.nextLine();
                 zoo.addAnimals(new Tiger(height,weight,eyeColor,habitat,dateFound));
+                break;
             case 6:
-                System.out.print("Место обитания");
+                System.out.print("Место обитания: ");
                 String habitat2 = ourScanner.nextLine();
-                System.out.print("Дата нахождения");
+                System.out.print("Дата нахождения: ");
                 String dateFound2 = ourScanner.nextLine();
-                System.out.println("Вожак стаи? (Да/Нет)");
+                System.out.println("Вожак стаи? (Да/Нет): ");
                 String leaderPack = ourScanner.nextLine();
                 zoo.addAnimals(new Wolf(height,weight,eyeColor, habitat2,dateFound2,
                         leaderPack));
+                break;
+        }
+        System.out.print("На этом все? (Да/Нет) ");
+        String answer = ourScanner.next();
+        if (answer.equals("Нет")) {
+            navigationMenu(ourScanner);
         }
     }
 
