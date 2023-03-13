@@ -3,12 +3,17 @@ package OOP_ALL.HomeWork.HW_02;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Objects;
+import java.util.TreeMap;
+
 
 public class Zoo implements Iterable<Animal>{
     private ArrayList<Animal> animals;
+
     public Zoo() {
-        this.animals = new ArrayList<Animal>();
+        this.animals = new ArrayList<>();
     }
+
 
     public void addAnimals(Animal animal){
         this.animals.add(animal);
@@ -20,6 +25,10 @@ public class Zoo implements Iterable<Animal>{
         }
     }
 
+    public String checkClass(int num){
+        return this.animals.get(num - 1).getClass().getSimpleName();
+    }
+
     public void showInformation(int num){
         this.animals.get(num - 1).showInformation();
         System.out.println();
@@ -29,6 +38,8 @@ public class Zoo implements Iterable<Animal>{
         this.animals.get(num - 1).makeSoundAnimal();
         System.out.println();
     }
+
+
 
 //    public void showAffection(int num) {
 //        for (Animal animal : this.animals) {

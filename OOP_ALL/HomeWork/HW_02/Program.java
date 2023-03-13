@@ -1,8 +1,6 @@
 package OOP_ALL.HomeWork.HW_02;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Program {
     public static void main(String[] args) {
@@ -11,10 +9,17 @@ public class Program {
         zoo.addAnimals(new Cat(20,7,"Grey", "Pups", "Cats", "Yes",
                 "Red", "12.09.2020","Yes"));
         zoo.addAnimals(new Chicken(30,2,"Green",0));
+        zoo.addAnimals(new Dog(40,10,"Brown","Nik","Dogs","Yes",
+                "White","12.09.2020","Yes"));
+        zoo.addAnimals(new Stork(60,10,"Blue",2000));
+        zoo.addAnimals(new Tiger(1,250,"Grey","India","Two years ago"));
+        zoo.addAnimals(new Wolf(90,12,"Green", "Norway","Many years ago",
+                "Yes"));
 
         int ourSelection = navigationMenu(ourScanner);
-        choiceMenu(ourSelection, zoo,ourScanner);
+        choiceMenu(ourSelection, zoo, ourScanner);
     }
+
 
     public static int navigationMenu(Scanner ourScanner) {
         HashMap<Integer, String> menu = new HashMap<>();
@@ -29,6 +34,9 @@ public class Program {
         return ourScanner.nextInt();
     }
 
+
+
+
     public static void choiceMenu(int ourSelection, Zoo zoo, Scanner ourScanner) {
         switch (ourSelection){
             case 1:
@@ -37,39 +45,40 @@ public class Program {
                 int newSelection = ourScanner.nextInt();
                 informationAboutAnimal(zoo, ourScanner, newSelection);
             case 2:
-//                zoo.addAnimals(new Chicken(5,5,"Green", 0));
+//                zoo.addAnimals(new Chicken(5,5,"Green", 0)); // разбираюсь
         }
     }
+
+
+
+
     public static void informationAboutAnimal(Zoo zoo, Scanner ourScanner, int newSelection){
 
-        switch (newSelection) {
+        HashMap<Integer, String> menu = new HashMap<>();
+        menu.put(1, "Показать информацию о животном");
+        menu.put(2, "Издать звук");
+
+        if (zoo.checkClass(newSelection).equals("Cat")){
+            menu.put(3, "Проявить ласку");
+        } else if (zoo.checkClass(newSelection).equals("Chicken") || zoo.checkClass(newSelection).equals("Stork")){
+            menu.put(3, "Полетать");
+        } else if (zoo.checkClass(newSelection).equals("Dog")){
+            menu.put(3, "Дрессировать");
+        }
+
+        for (Map.Entry<Integer, String> el : menu.entrySet()) {
+            System.out.println(el);
+        }
+        System.out.print("\tЧто хотите узнать? ");
+        int selection = ourScanner.nextInt();
+
+        switch (selection) {
             case 1:
-                HashMap<Integer, String> menu = new HashMap<>();
-                menu.put(1, "Показать информацию о животном");
-                menu.put(2, "Издать звук");
-                menu.put(3, "Проявить ласку");
-
-                for (Map.Entry<Integer, String> el : menu.entrySet()) {
-                    System.out.println(el);
-                }
-                System.out.print("\tЧто хотите узнать? ");
-                int newSelection2 = ourScanner.nextInt();
-                switch (newSelection2) {
-                    case 1:
-                        zoo.showInformation(newSelection);
-                        break;
-                    case 2:
-                        zoo.makeSoundAnimal(newSelection);
-                        break;
-                    case 3:
-//                        zoo.showAffection();
-                }
+                zoo.showInformation(newSelection);
+                break;
             case 2:
-                HashMap<Integer, String> menu2 = new HashMap<>();
-                menu2.put(1, "Показать информацию о животном");
-                menu2.put(2, "Издать звук");
-                menu2.put(3, "Полетать");
-
+                zoo.makeSoundAnimal(newSelection);
+                break;
         }
     }
 }

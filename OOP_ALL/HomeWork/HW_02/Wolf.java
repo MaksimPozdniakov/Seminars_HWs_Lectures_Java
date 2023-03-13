@@ -4,7 +4,7 @@ public class Wolf extends WildAnimal implements MakeSound,AnimalInformation {
 
     private String leaderPack;
 
-    public Wolf(Integer height, Integer weight, String eyeColor, String habitat, Integer dateFound,
+    public Wolf(Integer height, Integer weight, String eyeColor, String habitat, String dateFound,
                 String leaderPack) {
         super(height, weight, eyeColor, habitat, dateFound);
         this.leaderPack = leaderPack;
@@ -22,7 +22,7 @@ public class Wolf extends WildAnimal implements MakeSound,AnimalInformation {
 
     @Override
     public String toString() {
-        return "Рост: " + height + "Вес: " + weight + "Цвет глаз: " + eyeColor + "Место обитания: " +
+        return "Рост: " + height + "см" + "Вес: " + weight + "кг" + "Цвет глаз: " + eyeColor + "Место обитания: " +
                 habitat + "Дата нахождения: " + dateFound + "Вожак стаи: " + leaderPack;
     }
 }
