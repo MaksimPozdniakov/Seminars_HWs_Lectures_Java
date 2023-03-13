@@ -86,5 +86,86 @@ public class Program {
                 zoo.trainingAnimal(newSelection);
         }
     }
+
+    public static void addNewAnimals(Scanner ourScanner){
+        Zoo zoo = new Zoo();
+        HashMap<Integer, String> menu = new HashMap<>();
+        System.out.println("Кого вы хотите добавить?");
+        menu.put(1, "Кота");
+        menu.put(2, "Курицу");
+        menu.put(3, "Собаку");
+        menu.put(4, "Аиста");
+        menu.put(5, "Тигра");
+        menu.put(6, "Волка");
+        for (Map.Entry <Integer, String> el: menu.entrySet()) {
+            System.out.println(el);
+        }
+        int selection = ourScanner.nextInt();
+        System.out.print("Рост: ");
+        Integer height = ourScanner.nextInt();
+        System.out.print("Вес: ");
+        Integer weight = ourScanner.nextInt();
+        System.out.print("Цвет глаз: ");
+        String eyeColor = ourScanner.nextLine();
+
+
+        switch (selection){
+            case 1:
+                System.out.print("Кличка: ");
+                String nickname = ourScanner.nextLine();
+                System.out.print("Порода: ");
+                String species = ourScanner.nextLine();
+                System.out.print("Наличие прививок (Да/Нет): ");
+                String vaccinations = ourScanner.nextLine();
+                System.out.print("Цвет шерсти: ");
+                String woolColor = ourScanner.nextLine();
+                System.out.print("Дата рождения : ");
+                String dateBirth = ourScanner.nextLine();
+                System.out.print("Наличие шерсти (Да/Нет): ");
+                String presenceWool = ourScanner.nextLine();
+                zoo.addAnimals(new Cat(height,weight,eyeColor, nickname, species, vaccinations,
+                        woolColor, dateBirth,presenceWool));
+            case 2:
+                System.out.print("Высота полёта: ");
+                double flightAltitude = ourScanner.nextDouble();
+                zoo.addAnimals(new Chicken(height,weight,eyeColor,flightAltitude));
+            case 3:
+                System.out.print("Кличка: ");
+                String nickname2 = ourScanner.nextLine();
+                System.out.print("Порода: ");
+                String species2 = ourScanner.nextLine();
+                System.out.print("Наличие прививок (Да/Нет): ");
+                String vaccinations2 = ourScanner.nextLine();
+                System.out.print("Цвет шерсти: ");
+                String woolColor2 = ourScanner.nextLine();
+                System.out.print("Дата рождения : ");
+                String dateBirth2 = ourScanner.nextLine();
+                System.out.print("Наличие дрессировки (Да/Нет): ");
+                String presenceTraining = ourScanner.nextLine();
+                zoo.addAnimals(new Dog(height,weight,eyeColor,nickname2,species2,vaccinations2,
+                        woolColor2,dateBirth2,presenceTraining));
+            case 4:
+                System.out.print("Высота полёта: ");
+                double flightAltitude2 = ourScanner.nextDouble();
+                zoo.addAnimals(new Stork(height,weight,eyeColor,flightAltitude2));
+            case 5:
+                System.out.print("Место обитания");
+                String habitat = ourScanner.nextLine();
+                System.out.print("Дата нахождения");
+                String dateFound = ourScanner.nextLine();
+                zoo.addAnimals(new Tiger(height,weight,eyeColor,habitat,dateFound));
+            case 6:
+                System.out.print("Место обитания");
+                String habitat2 = ourScanner.nextLine();
+                System.out.print("Дата нахождения");
+                String dateFound2 = ourScanner.nextLine();
+                System.out.println("Вожак стаи? (Да/Нет)");
+                String leaderPack = ourScanner.nextLine();
+                zoo.addAnimals(new Wolf(height,weight,eyeColor, habitat2,dateFound2,
+                        leaderPack));
+        }
+    }
+
+
 }
 
