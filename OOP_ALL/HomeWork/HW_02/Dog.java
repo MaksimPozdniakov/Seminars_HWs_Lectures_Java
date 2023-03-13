@@ -1,6 +1,6 @@
 package OOP_ALL.HomeWork.HW_02;
 
-public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffection{
+public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffection,Training{
 
     private String presenceTraining;
 
@@ -13,6 +13,7 @@ public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffecti
     public String getPresenceTraining(){
         return presenceTraining;
     }
+
     public void showInformation(){
         System.out.println("Собака - это домашнее животное");
     }

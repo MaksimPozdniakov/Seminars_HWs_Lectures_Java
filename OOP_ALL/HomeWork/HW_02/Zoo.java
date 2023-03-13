@@ -39,7 +39,6 @@ public class Zoo implements Iterable<Animal>{
     }
 
 
-
     public void communication(int num) {
         Animal animal = this.animals.get(num - 1);
         if (animal instanceof ShowAffection) {
@@ -48,6 +47,7 @@ public class Zoo implements Iterable<Animal>{
             ((Fly) animal).fly();
         }
     }
+
 
     public void trainingAnimal(int num) {
         Animal animal = this.animals.get(num - 1);
