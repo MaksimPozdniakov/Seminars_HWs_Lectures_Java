@@ -16,12 +16,13 @@ public class Program {
         zoo.addAnimals(new Wolf(90,12,"Green", "Norway","Many years ago",
                 "Yes"));
 
-        int ourSelection = navigationMenu(ourScanner);
-        choiceMenu(ourSelection, zoo, ourScanner);
+//        int ourSelection = navigationMenu(ourScanner);
+//        choiceMenu(ourSelection, zoo, ourScanner);
+        navigationMenu(zoo,ourScanner);
     }
 
 
-    public static int navigationMenu(Scanner ourScanner) {
+    public static void navigationMenu(Zoo zoo,Scanner ourScanner) {
         HashMap<Integer, String> menu = new HashMap<>();
         menu.put(1, "Показать всех животных в зоопарке");
         menu.put(2, "Добавить новое животное в зоопарк");
@@ -31,7 +32,9 @@ public class Program {
             System.out.println(el);
         }
         System.out.print("\tСделайте выбор: ");
-        return ourScanner.nextInt();
+        int ourSelection = ourScanner.nextInt();
+        choiceMenu(ourSelection, zoo, ourScanner);
+//        return ourScanner.nextInt();
     }
 
 
@@ -45,7 +48,7 @@ public class Program {
                 int newSelection = ourScanner.nextInt();
                 informationAboutAnimal(zoo, ourScanner, newSelection);
             case 2:
-                addNewAnimals(ourScanner);
+                addNewAnimals(zoo,ourScanner);
         }
     }
 
@@ -87,8 +90,8 @@ public class Program {
         }
     }
 
-    public static void addNewAnimals(Scanner ourScanner){
-        Zoo zoo = new Zoo();
+    public static void addNewAnimals(Zoo zoo,Scanner ourScanner){
+//        Zoo zoo = new Zoo();
         HashMap<Integer, String> menu = new HashMap<>();
         System.out.println("Кого вы хотите добавить?");
         menu.put(1, "Кота");
@@ -174,7 +177,7 @@ public class Program {
         System.out.print("На этом все? (Да/Нет) ");
         String answer = ourScanner.next();
         if (answer.equals("Нет")) {
-            navigationMenu(ourScanner);
+            navigationMenu(zoo,ourScanner);
         }
     }
 
