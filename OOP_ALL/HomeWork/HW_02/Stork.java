@@ -16,8 +16,8 @@ public class Stork extends Bird implements AnimalInformation,Fly,MakeSound {
     }
 
     public String toString(){
-        return "Рост: " + height + "Вес: " + weight + "Цвет глаз: " + eyeColor + "Высота полета: " +
-                getFlightAltitude() + "метров";
+        return "Рост: " + height + " см" + ", Вес: " + weight + " кг" + ", Цвет глаз: " + eyeColor
+                + ", Высота полета: " + getFlightAltitude() + " метров";
     }
 
 }

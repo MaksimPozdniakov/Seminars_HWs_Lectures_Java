@@ -22,7 +22,8 @@ public class Wolf extends WildAnimal implements MakeSound,AnimalInformation {
 
     @Override
     public String toString() {
-        return "Рост: " + height + "см" + "Вес: " + weight + "кг" + "Цвет глаз: " + eyeColor + "Место обитания: " +
-                habitat + "Дата нахождения: " + dateFound + "Вожак стаи: " + leaderPack;
+        return "Рост: " + height + " см" + ", Вес: " + weight + " кг" + ", Цвет глаз: " + eyeColor
+                + ", Место обитания: " + habitat + ", Дата нахождения: " + dateFound
+                + ", Вожак стаи: " + leaderPack;
     }
 }

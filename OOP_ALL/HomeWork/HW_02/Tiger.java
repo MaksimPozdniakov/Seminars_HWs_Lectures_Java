@@ -13,8 +13,8 @@ public class Tiger extends WildAnimal implements MakeSound,AnimalInformation {
     }
 
     public String toString(){
-        return "Рост: " + height + "метр" + "Вес: " + weight + "кг" + "Цвет глаз: " + eyeColor + "Место обитания: " +
-                habitat + "Дата нахождения: " + dateFound;
+        return "Рост: " + height + " метр" + ", Вес: " + weight + " кг" + ", Цвет глаз: " + eyeColor
+                + ", Место обитания: " + habitat + ", Дата нахождения: " + dateFound;
     }
 
 }

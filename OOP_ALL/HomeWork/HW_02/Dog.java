@@ -28,8 +28,8 @@ public class Dog extends Pets implements AnimalInformation,MakeSound,ShowAffecti
     }
 
     public String toString(){
-        return "Рост: " + height + "Вес: " + weight + "Цвет глаз: " + eyeColor + "Кличка: " + nickname + "Порода: "
-                + species + "Наличие прививок: " + vaccinations + "Цвет шерсти: " + woolColor + "Дата рождения: "
-                + dateBirth + "Наличие дрессировки: " + presenceTraining;
+        return "Рост: " + height + " см, " + "Вес: " + weight + " кг, " + "Цвет глаз: " + eyeColor + ", Кличка: "
+                + nickname + ", Порода: " + species + ", Наличие прививок: " + vaccinations + ", Цвет шерсти: "
+                + woolColor + ", Дата рождения: " + dateBirth + ", Наличие дрессировки: " + presenceTraining;
     }
 }
