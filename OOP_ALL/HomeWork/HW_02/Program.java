@@ -85,8 +85,17 @@ public class Program {
                 break;
             case 3:
                 zoo.communication(newSelection);
+                break;
             case 4:
                 zoo.trainingAnimal(newSelection);
+                break;
+        }
+        System.out.print("На этом все? (Да/Нет) ");
+        String answer = ourScanner.next();
+        if (answer.equals("Нет")) {
+            navigationMenu(zoo,ourScanner);
+        } else{
+            System.exit(0);
         }
     }
 

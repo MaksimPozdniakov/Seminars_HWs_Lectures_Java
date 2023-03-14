@@ -19,8 +19,10 @@ public class Zoo implements Iterable<Animal>{
     }
 
     public void showAllAnimal(){
+        int number = 1;
         for (Animal animal : this.animals) {
-            System.out.printf("%s: %s \n", animal.getClass().getSimpleName(),animal);
+            System.out.printf("%d) %s: %s \n",number, animal.getClass().getSimpleName(),animal);
+            number++;
         }
     }
 
