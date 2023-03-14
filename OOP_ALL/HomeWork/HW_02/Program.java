@@ -19,13 +19,13 @@ public class Program {
         navigationMenu(zoo,ourScanner);
     }
 
-
     public static void navigationMenu(Zoo zoo,Scanner ourScanner) {
         HashMap<Integer, String> menu = new HashMap<>();
         menu.put(1, "Показать всех животных в зоопарке");
         menu.put(2, "Добавить новое животное в зоопарк");
         menu.put(3, "Удалить животное из зоопарка");
         menu.put(4, "Заставить всех животных издать звук");
+        menu.put(5, "Завершить работу программы");
         for (Map.Entry <Integer, String> el: menu.entrySet()) {
             System.out.println(el);
         }
@@ -33,9 +33,6 @@ public class Program {
         int ourSelection = ourScanner.nextInt();
         choiceMenu(ourSelection, zoo, ourScanner);
     }
-
-
-
 
     public static void choiceMenu(int ourSelection, Zoo zoo, Scanner ourScanner) {
         switch (ourSelection){
@@ -51,18 +48,14 @@ public class Program {
                 System.out.print("\tВыберите животное или птицу, которое хотите удалить: ");
                 int newSelection2 = ourScanner.nextInt();
                 zoo.removeAnimal(newSelection2);
+            case 4:
+                zoo.soundAllAnimal();
+            case 5:
+                System.exit(0);
 
-                System.out.print("На этом все? (Да/Нет) ");
-                String answer = ourScanner.next();
-                answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
-                if (answer.equals("Нет")) {
-                    navigationMenu(zoo,ourScanner);
-                }
+                answerMenu(zoo,ourScanner);
         }
     }
-
-
-
 
     public static void informationAboutAnimal(Zoo zoo, Scanner ourScanner, int newSelection){
 
@@ -99,14 +92,7 @@ public class Program {
                 zoo.trainingAnimal(newSelection);
                 break;
         }
-        System.out.print("На этом все? (Да/Нет) ");
-        String answer = ourScanner.next();
-        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
-        if (answer.equals("Нет")) {
-            navigationMenu(zoo,ourScanner);
-        } else{
-            System.exit(0);
-        }
+        answerMenu(zoo,ourScanner);
     }
 
     public static void addNewAnimals(Zoo zoo,Scanner ourScanner){
@@ -129,8 +115,6 @@ public class Program {
         Integer weight = ourScanner.nextInt();
         System.out.print("Цвет глаз: ");
         String eyeColor = ourScanner.next();
-
-
 
         switch (selection){
             case 1:
@@ -193,14 +177,18 @@ public class Program {
                         leaderPack));
                 break;
         }
+        answerMenu(zoo,ourScanner);
+    }
+
+    public static void answerMenu(Zoo zoo, Scanner ourScanner){
         System.out.print("На этом все? (Да/Нет) ");
         String answer = ourScanner.next();
         answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
         if (answer.equals("Нет")) {
             navigationMenu(zoo,ourScanner);
+        }else{
+            System.exit(0);
         }
     }
-
-
 }
 

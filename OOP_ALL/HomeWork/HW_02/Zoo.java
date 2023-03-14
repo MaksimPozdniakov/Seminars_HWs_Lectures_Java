@@ -42,6 +42,15 @@ public class Zoo implements Iterable<Animal>{
         System.out.println();
     }
 
+    public void soundAllAnimal(){
+        for (Animal elem: this.animals) {
+            if (elem instanceof MakeSound){
+                System.out.print(elem.getClass().getSimpleName() + ": ");
+                ((MakeSound) elem).makeSoundAnimal();
+            }
+        }
+    }
+
     public void communication(int num) {
         Animal animal = this.animals.get(num - 1);
         if (animal instanceof ShowAffection) {
