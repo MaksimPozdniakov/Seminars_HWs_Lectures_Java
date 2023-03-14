@@ -16,8 +16,6 @@ public class Program {
         zoo.addAnimals(new Wolf(90,12,"Green", "Norway","Many years ago",
                 "Yes"));
 
-//        int ourSelection = navigationMenu(ourScanner);
-//        choiceMenu(ourSelection, zoo, ourScanner);
         navigationMenu(zoo,ourScanner);
     }
 
@@ -34,7 +32,6 @@ public class Program {
         System.out.print("\tСделайте выбор: ");
         int ourSelection = ourScanner.nextInt();
         choiceMenu(ourSelection, zoo, ourScanner);
-//        return ourScanner.nextInt();
     }
 
 
@@ -49,6 +46,18 @@ public class Program {
                 informationAboutAnimal(zoo, ourScanner, newSelection);
             case 2:
                 addNewAnimals(zoo,ourScanner);
+            case 3:
+                zoo.showAllAnimal();
+                System.out.print("\tВыберите животное или птицу, которое хотите удалить: ");
+                int newSelection2 = ourScanner.nextInt();
+                zoo.removeAnimal(newSelection2);
+
+                System.out.print("На этом все? (Да/Нет) ");
+                String answer = ourScanner.next();
+                answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
+                if (answer.equals("Нет")) {
+                    navigationMenu(zoo,ourScanner);
+                }
         }
     }
 
@@ -92,6 +101,7 @@ public class Program {
         }
         System.out.print("На этом все? (Да/Нет) ");
         String answer = ourScanner.next();
+        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
         if (answer.equals("Нет")) {
             navigationMenu(zoo,ourScanner);
         } else{
@@ -185,6 +195,7 @@ public class Program {
         }
         System.out.print("На этом все? (Да/Нет) ");
         String answer = ourScanner.next();
+        answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
         if (answer.equals("Нет")) {
             navigationMenu(zoo,ourScanner);
         }

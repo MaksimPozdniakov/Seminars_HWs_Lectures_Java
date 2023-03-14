@@ -3,8 +3,6 @@ package OOP_ALL.HomeWork.HW_02;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Objects;
-import java.util.TreeMap;
 
 
 public class Zoo implements Iterable<Animal>{
@@ -16,6 +14,10 @@ public class Zoo implements Iterable<Animal>{
 
     public void addAnimals(Animal animal){
         this.animals.add(animal);
+    }
+
+    public void removeAnimal(int num){
+        this.animals.remove(num-1);
     }
 
     public void showAllAnimal(){
