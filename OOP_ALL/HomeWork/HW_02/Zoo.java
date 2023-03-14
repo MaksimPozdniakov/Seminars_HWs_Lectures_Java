@@ -34,6 +34,7 @@ public class Zoo implements Iterable<Animal>{
 
     public void showInformation(int num){
         this.animals.get(num - 1).showInformation();
+        System.out.println(this.animals.get(num - 1));
         System.out.println();
     }
 
