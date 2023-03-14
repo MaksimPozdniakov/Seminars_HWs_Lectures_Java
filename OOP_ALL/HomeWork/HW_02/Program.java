@@ -109,27 +109,29 @@ public class Program {
             System.out.println(el);
         }
         int selection = ourScanner.nextInt();
+
         System.out.print("Рост: ");
         Integer height = ourScanner.nextInt();
         System.out.print("Вес: ");
         Integer weight = ourScanner.nextInt();
         System.out.print("Цвет глаз: ");
         String eyeColor = ourScanner.next();
+//        System.out.println();
 
         switch (selection){
             case 1:
                 System.out.print("Кличка: ");
-                String nickname = ourScanner.nextLine();
+                String nickname = ourScanner.next();
                 System.out.print("Порода: ");
-                String species = ourScanner.nextLine();
+                String species = ourScanner.next();
                 System.out.print("Наличие прививок (Да/Нет): ");
-                String vaccinations = ourScanner.nextLine();
+                String vaccinations = ourScanner.next();
                 System.out.print("Цвет шерсти: ");
-                String woolColor = ourScanner.nextLine();
+                String woolColor = ourScanner.next();
                 System.out.print("Дата рождения: ");
-                String dateBirth = ourScanner.nextLine();
+                String dateBirth = ourScanner.next();
                 System.out.print("Наличие шерсти (Да/Нет): ");
-                String presenceWool = ourScanner.nextLine();
+                String presenceWool = ourScanner.next();
                 zoo.addAnimals(new Cat(height,weight,eyeColor, nickname, species, vaccinations,
                         woolColor, dateBirth,presenceWool));
                 break;
@@ -140,17 +142,17 @@ public class Program {
                 break;
             case 3:
                 System.out.print("Кличка: ");
-                String nickname2 = ourScanner.nextLine();
+                String nickname2 = ourScanner.next();
                 System.out.print("Порода: ");
-                String species2 = ourScanner.nextLine();
+                String species2 = ourScanner.next();
                 System.out.print("Наличие прививок (Да/Нет): ");
-                String vaccinations2 = ourScanner.nextLine();
+                String vaccinations2 = ourScanner.next();
                 System.out.print("Цвет шерсти: ");
-                String woolColor2 = ourScanner.nextLine();
+                String woolColor2 = ourScanner.next();
                 System.out.print("Дата рождения: ");
-                String dateBirth2 = ourScanner.nextLine();
+                String dateBirth2 = ourScanner.next();
                 System.out.print("Наличие дрессировки (Да/Нет): ");
-                String presenceTraining = ourScanner.nextLine();
+                String presenceTraining = ourScanner.next();
                 zoo.addAnimals(new Dog(height,weight,eyeColor,nickname2,species2,vaccinations2,
                         woolColor2,dateBirth2,presenceTraining));
                 break;
@@ -161,18 +163,18 @@ public class Program {
                 break;
             case 5:
                 System.out.print("Место обитания: ");
-                String habitat = ourScanner.nextLine();
+                String habitat = ourScanner.next();
                 System.out.print("Дата нахождения: ");
-                String dateFound = ourScanner.nextLine();
+                String dateFound = ourScanner.next();
                 zoo.addAnimals(new Tiger(height,weight,eyeColor,habitat,dateFound));
                 break;
             case 6:
                 System.out.print("Место обитания: ");
-                String habitat2 = ourScanner.nextLine();
+                String habitat2 = ourScanner.next();
                 System.out.print("Дата нахождения: ");
-                String dateFound2 = ourScanner.nextLine();
+                String dateFound2 = ourScanner.next();
                 System.out.println("Вожак стаи? (Да/Нет): ");
-                String leaderPack = ourScanner.nextLine();
+                String leaderPack = ourScanner.next();
                 zoo.addAnimals(new Wolf(height,weight,eyeColor, habitat2,dateFound2,
                         leaderPack));
                 break;
