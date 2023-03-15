@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_03_2023_15_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_03_2023_15_43__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_03/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminars/Seminar_004_LinkedList/Seminar_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminars/Seminar_004_LinkedList/Seminar_004.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +71,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="OOP_ALL.Seminars.Seminar_03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OOP_ALL.Seminars.Seminar_03.Program">
     <configuration name="Ex003_Game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Lecture_04.Ex008.Ex003_Game" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_ALL.Lectures.Lecture_04.Ex008.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex003_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Lecture_04.Ex008.Ex003_Game" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
@@ -119,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOP_ALL.Seminars.Seminar_03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_03.Program" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_ALL.Seminars.Seminar_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_02.Program" />
       <module name="Seminars_HWs_Java" />
@@ -134,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_03.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OOP_ALL.Seminars.Seminar_02.Program" />
         <item itemvalue="Application.Ex003_Game (1)" />
-        <item itemvalue="Application.Ex003_Game" />
       </list>
     </recent_temporary>
   </component>
