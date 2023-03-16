@@ -17,18 +17,30 @@ public class Program {
         figures.addNewFigure(new Square(2,2,2,2));
         figures.addNewFigure(new Circle(5));
 
-        mainMenu();
+        mainMenu(scanner, figures);
 
 //        figures.showAll();
     }
-    public static void mainMenu(){
+
+    public static void mainMenu(Scanner scanner, FiguresAll figures){
         String textMenu =
                 """
-                        1 - Показать информацию обо всех фигурах имеющихся в списке \n
-                        2 - Добавления новой фигуры \n
-                        3 - Удаления фигуры \n
+                        1 - Показать информацию обо всех фигурах имеющихся в списке
+                        2 - Добавления новой фигуры
+                        3 - Удаления фигуры
                         4 - Изменения фигуры по ндексу
                         """;
         System.out.println(textMenu);
+        System.out.print("\tСделайте выбор: ");
+        int choice = scanner.nextInt();
+        nextMenu(figures, choice);
     }
+
+    public static void nextMenu(FiguresAll figures, int choice){
+        switch (choice){
+            case 1:
+                figures.showAll();
+        }
+    }
+
 }
