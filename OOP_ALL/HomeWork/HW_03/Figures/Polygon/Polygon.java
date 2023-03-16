@@ -5,7 +5,7 @@ import OOP_ALL.HomeWork.HW_03.Figures.BaseClass.Figure;
 import java.util.ArrayList;
 
 public abstract class Polygon extends Figure {
-    ArrayList<Double> sides = new ArrayList<>();
+    protected ArrayList<Double> sides = new ArrayList<>();
 
     protected Polygon(double... sides) throws Exception{
         for (double side: sides) {

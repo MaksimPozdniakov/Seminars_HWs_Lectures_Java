@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/BaseClass/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/BaseClass/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00012" summary="HW_01">
-      <created>1676302250062</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1676302250062</updated>
     </task>
     <task id="LOCAL-00013" summary="HW_01">
       <created>1676617259659</created>
@@ -503,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678786749833</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="HW6">
+      <created>1678965824043</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1678965824043</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

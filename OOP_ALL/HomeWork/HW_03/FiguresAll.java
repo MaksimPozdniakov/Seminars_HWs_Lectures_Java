@@ -18,7 +18,7 @@ public class FiguresAll {
     public void showAll() {
         int number = 1;
         for (Figure el: figures) {
-            System.out.printf("%d) Фигура %s: %s",number, el.getClass().getSimpleName(), el);
+            System.out.printf("%d) Фигура %s: %s\n",number, el.getClass().getSimpleName(), el);
         }
     }
 }
