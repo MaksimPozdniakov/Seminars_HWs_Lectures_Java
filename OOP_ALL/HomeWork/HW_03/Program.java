@@ -1,5 +1,6 @@
 package OOP_ALL.HomeWork.HW_03;
 
+import OOP_ALL.HomeWork.HW_03.Figures.Circle.Circle;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Rectangle;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Square;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Triangle;
@@ -13,6 +14,7 @@ public class Program {
         figures.addNewFigure(new Triangle(4,6,7));
         figures.addNewFigure(new Rectangle(2,4,2,4));
         figures.addNewFigure(new Square(2,2,2,2));
+        figures.addNewFigure(new Circle(5));
 
         figures.showAll();
 
