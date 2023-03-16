@@ -40,13 +40,18 @@ public class Program {
         switch (choice){
             case 1:
                 figures.showAll();
-                System.out.println();
-                choiceMenu(scanner,figures);
+                break;
             case 2:
                 addFigure(scanner, figures);
+            case 3:
+                figures.showAll();
+                System.out.print("\tВыбеоите фигуру которую хотите удалить: ");
+                int ourChoice = scanner.nextInt();
+                figures.removeFigure(ourChoice);
             case 5:
                 System.exit(0);
         }
+        choiceMenu(scanner,figures);
     }
 
     public static void addFigure(Scanner scanner, FiguresAll figures) throws Exception {

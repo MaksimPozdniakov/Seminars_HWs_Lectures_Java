@@ -15,10 +15,15 @@ public class FiguresAll {
         this.figures.add(figure);
     }
 
+    public void removeFigure(int num) {
+        this.figures.remove(num - 1);
+    }
+
     public void showAll() {
         int number = 1;
         for (Figure el: figures) {
             System.out.printf("%d) Фигура %s: %s\n",number, el.getClass().getSimpleName(), el);
+            number++;
         }
     }
 }
