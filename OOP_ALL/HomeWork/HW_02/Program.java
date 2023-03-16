@@ -52,9 +52,8 @@ public class Program {
                 zoo.soundAllAnimal();
             case 5:
                 System.exit(0);
-
-                answerMenu(zoo,ourScanner);
         }
+        answerMenu(zoo,ourScanner);
     }
 
     public static void informationAboutAnimal(Zoo zoo, Scanner ourScanner, int newSelection){

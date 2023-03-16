@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,13 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00019" summary="HW_02">
-      <created>1676723304351</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1676723304351</updated>
     </task>
     <task id="LOCAL-00020" summary="HW_02">
       <created>1676753407046</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678981252721</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="HW6">
+      <created>1678981708788</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1678981708789</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

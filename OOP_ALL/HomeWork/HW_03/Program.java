@@ -28,7 +28,9 @@ public class Program {
                         2 - Добавления новой фигуры
                         3 - Удаления фигуры
                         4 - Изменения фигуры по ндексу
-                        5 - Выйти из меню
+                        5 - Показать только те фигуры у которых есть периметр
+                        6 - Показать только те фигуры у которых есть длина окружности
+                        7 - Выйти из меню
                         """;
         System.out.println(textMenu);
         System.out.print("\tСделайте выбор: ");
@@ -45,9 +47,10 @@ public class Program {
                 addFigure(scanner, figures);
             case 3:
                 figures.showAll();
-                System.out.print("\tВыбеоите фигуру которую хотите удалить: ");
+                System.out.print("\tВыберите фигуру которую хотите удалить: ");
                 int ourChoice = scanner.nextInt();
                 figures.removeFigure(ourChoice);
+                break;
             case 5:
                 System.exit(0);
         }
