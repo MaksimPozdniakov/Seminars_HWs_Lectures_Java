@@ -1,6 +1,6 @@
 package OOP_ALL.HomeWork.HW_03.Figures.Polygon;
 
-public class Triangle extends Polygon{
+public class Triangle extends Polygon implements FigurePerimeter{
     public Triangle(double sideA, double sideB, double sideC) throws Exception {
         super(sideA, sideB, sideC);
         this.sides.add(sideA);

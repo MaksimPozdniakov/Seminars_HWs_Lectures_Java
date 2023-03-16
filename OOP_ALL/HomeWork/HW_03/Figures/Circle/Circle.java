@@ -2,7 +2,7 @@ package OOP_ALL.HomeWork.HW_03.Figures.Circle;
 
 import OOP_ALL.HomeWork.HW_03.Figures.BaseClass.Figure;
 
-public class Circle extends Figure {
+public class Circle extends Figure implements Circumference {
 
     protected double radius;
 
@@ -22,5 +22,4 @@ public class Circle extends Figure {
     public String toString() {
         return String.format("Длина окружности %.2f см, Площадь %.2f см^2 ", circumference(), figureArea());
     }
-
 }

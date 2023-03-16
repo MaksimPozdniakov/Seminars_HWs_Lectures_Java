@@ -1,6 +1,8 @@
 package OOP_ALL.HomeWork.HW_03;
 
 import OOP_ALL.HomeWork.HW_03.Figures.BaseClass.Figure;
+import OOP_ALL.HomeWork.HW_03.Figures.Circle.Circumference;
+import OOP_ALL.HomeWork.HW_03.Figures.Polygon.FigurePerimeter;
 
 import java.util.ArrayList;
 
@@ -17,6 +19,24 @@ public class FiguresAll {
 
     public void removeFigure(int num) {
         this.figures.remove(num - 1);
+    }
+
+    public void circumference() {
+        for (Figure figure: figures) {
+            System.out.println(figure.getClass().getSimpleName());
+            if (figure instanceof Circumference) {
+                ((Circumference) figure).circumference();
+            }
+        }
+    }
+
+    public void perimeter() {
+        for (Figure figure: figures) {
+            System.out.println(figure.getClass().getSimpleName());
+            if (figure instanceof FigurePerimeter) {
+                ((FigurePerimeter) figure).figurePerimeter();
+            }
+        }
     }
 
     public void showAll() {

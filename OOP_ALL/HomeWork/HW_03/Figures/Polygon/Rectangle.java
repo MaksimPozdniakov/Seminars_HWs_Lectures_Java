@@ -1,6 +1,6 @@
 package OOP_ALL.HomeWork.HW_03.Figures.Polygon;
 
-public class Rectangle extends Polygon{
+public class Rectangle extends Polygon implements FigurePerimeter{
     public Rectangle(double sideA, double sideB, double sideC, double sideD) throws Exception {
         super(sideA,sideB,sideC,sideD);
         this.sides.add(sideA);

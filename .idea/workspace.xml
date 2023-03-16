@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_02/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Circle/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Circumference.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Circle/Circumference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Figures/Polygon/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/FiguresAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_03/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +76,7 @@
       <recent name="OOP_ALL.HomeWork.HW_03.Figures.Polygon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOP_ALL.HomeWork.HW_03.Program">
+  <component name="RunManager" selected="Application.OOP_ALL.Seminars.Seminar_02.Program">
     <configuration name="Ex003_Game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.Lectures.Lecture_04.Ex008.Ex003_Game" />
       <module name="Seminars_HWs_Java" />
@@ -139,10 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_02.Program" />
         <item itemvalue="Application.OOP_ALL.HomeWork.HW_03.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_02.Program" />
         <item itemvalue="Application.Ex003_Game (1)" />
       </list>
     </recent_temporary>
@@ -155,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00020" summary="HW_02">
-      <created>1676753407046</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1676753407046</updated>
     </task>
     <task id="LOCAL-00021" summary="HW_02">
       <created>1676806413111</created>
@@ -499,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678981708789</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="HW6">
+      <created>1678982366950</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982366950</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

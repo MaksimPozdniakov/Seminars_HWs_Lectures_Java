@@ -1,6 +1,6 @@
 package OOP_ALL.HomeWork.HW_03.Figures.Polygon;
 
-public class Square extends Polygon {
+public class Square extends Polygon implements FigurePerimeter{
     public Square(double sideA, double sideB, double sideC, double sideD) throws Exception {
         super(sideA, sideB, sideC, sideD);
         this.sides.add(sideA);

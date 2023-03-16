@@ -52,6 +52,12 @@ public class Program {
                 figures.removeFigure(ourChoice);
                 break;
             case 5:
+                figures.perimeter();
+                break;
+            case 6:
+                figures.circumference();
+                break;
+            case 7:
                 System.exit(0);
         }
         choiceMenu(scanner,figures);
