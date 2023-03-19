@@ -25,9 +25,9 @@ public class Program {
         String textMenu =
                 """
                         1 - Показать информацию обо всех фигурах имеющихся в списке
-                        2 - Добавления новой фигуры
-                        3 - Удаления фигуры
-                        4 - Изменения фигуры по ндексу
+                        2 - Добавить новую фигуру
+                        3 - Удалить фигуру
+                        4 - Изменить фигуру
                         5 - Показать только те фигуры у которых есть периметр
                         6 - Показать только те фигуры у которых есть длина окружности
                         7 - Выйти из меню
@@ -42,6 +42,13 @@ public class Program {
         switch (choice){
             case 1:
                 figures.showAll();
+                System.out.print("Отсортировать все фигуры по площади от меньшего к большему? (Да/Нет): ");
+                String answer = scanner.next();
+                answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
+                if (answer.equals("Да")){
+                    figures.sortBySquare();
+                    figures.showAll();
+                }
                 break;
             case 2:
                 addFigure(scanner, figures);
@@ -51,6 +58,8 @@ public class Program {
                 int ourChoice = scanner.nextInt();
                 figures.removeFigure(ourChoice);
                 break;
+            case 4:
+
             case 5:
                 figures.perimeter();
                 break;
@@ -120,5 +129,8 @@ public class Program {
         }
     }
 
+    public static void changeFiigure(Scanner scanner, FiguresAll figures){
+
+    }
 
 }

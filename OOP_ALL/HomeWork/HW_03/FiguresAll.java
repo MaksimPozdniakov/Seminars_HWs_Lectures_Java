@@ -5,6 +5,7 @@ import OOP_ALL.HomeWork.HW_03.Figures.Circle.Circumference;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.FigurePerimeter;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class FiguresAll {
     private ArrayList<Figure> figures;
@@ -25,7 +26,7 @@ public class FiguresAll {
         for (Figure figure: figures) {
             if (figure instanceof Circumference) {
                 ((Circumference) figure).circumference();
-                System.out.printf("Периметр есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
+                System.out.printf("Длина окружности есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
             }
         }
     }
@@ -34,7 +35,7 @@ public class FiguresAll {
         for (Figure figure: figures) {
             if (figure instanceof FigurePerimeter) {
                 ((FigurePerimeter) figure).figurePerimeter();
-                System.out.printf("Длина окружности есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
+                System.out.printf("Периметр есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
             }
         }
     }
@@ -46,4 +47,9 @@ public class FiguresAll {
             number++;
         }
     }
+
+    public void sortBySquare(){
+        Collections.sort(this.figures);
+    }
+
 }
