@@ -109,7 +109,7 @@ public class Program {
     }
 
     public static void choiceMenu(Scanner scanner, FiguresAll figures) throws Exception {
-        System.out.println("\tНа этом все? (Да/Нет)");
+        System.out.print("\tНа этом все? (Да/Нет): ");
         String choice = scanner.next();
         choice = choice.substring(0, 1).toUpperCase() + choice.substring(1);
 
@@ -118,7 +118,6 @@ public class Program {
         } else {
             System.exit(0);
         }
-
     }
 
 

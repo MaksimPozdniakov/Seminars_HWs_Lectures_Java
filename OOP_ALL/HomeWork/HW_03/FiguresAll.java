@@ -23,18 +23,18 @@ public class FiguresAll {
 
     public void circumference() {
         for (Figure figure: figures) {
-            System.out.println(figure.getClass().getSimpleName());
             if (figure instanceof Circumference) {
                 ((Circumference) figure).circumference();
+                System.out.printf("Периметр есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
             }
         }
     }
 
     public void perimeter() {
         for (Figure figure: figures) {
-            System.out.println(figure.getClass().getSimpleName());
             if (figure instanceof FigurePerimeter) {
                 ((FigurePerimeter) figure).figurePerimeter();
+                System.out.printf("Длина окружности есть у - %s:%s\n",figure.getClass().getSimpleName(),figure);
             }
         }
     }
