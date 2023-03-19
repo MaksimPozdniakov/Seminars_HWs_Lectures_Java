@@ -48,8 +48,12 @@ public class FiguresAll {
         }
     }
 
-    public void sortBySquare(){
+    public void sortFigureArea(){
         Collections.sort(this.figures);
+    }
+
+    public Figure changeFigure(int num){
+        return this.figures.get(num-1);
     }
 
 }

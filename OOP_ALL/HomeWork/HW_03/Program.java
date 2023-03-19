@@ -46,7 +46,7 @@ public class Program {
                 String answer = scanner.next();
                 answer = answer.substring(0, 1).toUpperCase() + answer.substring(1);
                 if (answer.equals("Да")){
-                    figures.sortBySquare();
+                    figures.sortFigureArea();
                     figures.showAll();
                 }
                 break;
@@ -59,7 +59,8 @@ public class Program {
                 figures.removeFigure(ourChoice);
                 break;
             case 4:
-
+                changeOurFigure(scanner,figures);
+                break;
             case 5:
                 figures.perimeter();
                 break;
@@ -129,8 +130,11 @@ public class Program {
         }
     }
 
-    public static void changeFiigure(Scanner scanner, FiguresAll figures){
-
+    public static void changeOurFigure(Scanner scanner, FiguresAll figures){
+        figures.showAll();
+        System.out.print("Какую фигуру хотите изменить? ");
+        int answer = scanner.nextInt();
+        System.out.println(figures.changeFigure(answer));
     }
 
 }
