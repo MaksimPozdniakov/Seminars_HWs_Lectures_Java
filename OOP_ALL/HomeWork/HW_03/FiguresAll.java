@@ -1,6 +1,7 @@
 package OOP_ALL.HomeWork.HW_03;
 
 import OOP_ALL.HomeWork.HW_03.Figures.BaseClass.Figure;
+import OOP_ALL.HomeWork.HW_03.Figures.Circle.Circle;
 import OOP_ALL.HomeWork.HW_03.Figures.Circle.Circumference;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.FigurePerimeter;
 
@@ -52,8 +53,13 @@ public class FiguresAll {
         Collections.sort(this.figures);
     }
 
-    public Figure changeFigure(int num){
-        return this.figures.get(num-1);
+    public Figure changeFigure(int num,Figure figure){
+        return this.figures.set(num-1,figure);
     }
+
+    public String checkClass(int num){
+        return this.figures.get(num - 1).getClass().getSimpleName();
+    }
+
 
 }

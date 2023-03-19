@@ -5,6 +5,7 @@ import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Rectangle;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Square;
 import OOP_ALL.HomeWork.HW_03.Figures.Polygon.Triangle;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Program {
@@ -130,11 +131,37 @@ public class Program {
         }
     }
 
-    public static void changeOurFigure(Scanner scanner, FiguresAll figures){
+    public static void changeOurFigure(Scanner scanner, FiguresAll figures) throws Exception{
         figures.showAll();
         System.out.print("Какую фигуру хотите изменить? ");
         int answer = scanner.nextInt();
-        System.out.println(figures.changeFigure(answer));
+
+        if (figures.checkClass(answer).equals("Circle")){
+            System.out.print("Введите новый радиус: ");
+            double radius = scanner.nextInt();
+            figures.changeFigure(answer,new Circle(radius));
+        }
+        else if (figures.checkClass(answer).equals("Rectangle")) {
+            System.out.print("Укажите новую сторону А и C: ");
+            double sideAC = scanner.nextInt();
+            System.out.print("Укажите новую сторону B и D: ");
+            double sideBD = scanner.nextInt();
+            figures.changeFigure(answer,new Rectangle(sideAC,sideBD,sideAC,sideBD));
+        }
+        else if (figures.checkClass(answer).equals("Square")) {
+            System.out.print("Укажите сторону А, остальные заполняться сами: ");
+            double side = scanner.nextInt();
+            figures.changeFigure(answer, new Square(side,side,side,side));
+        }
+        else if (figures.checkClass(answer).equals("Triangle")) {
+            System.out.print("Укажите сторону А: ");
+            double sideA = scanner.nextInt();
+            System.out.print("Укажите сторону B: ");
+            double sideB = scanner.nextInt();
+            System.out.println("Укажите сторону C: ");
+            double sideC = scanner.nextInt();
+            figures.changeFigure(answer, new Triangle(sideA,sideB,sideC));
+        }
     }
 
 }
