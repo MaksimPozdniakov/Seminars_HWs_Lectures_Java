@@ -1,4 +1,4 @@
-package OOP_ALL.Seminars.Seminar_04.ui;
+package OOP_ALL.Seminars.Seminar_05.ui;
 
 public class Console implements View {
 }
