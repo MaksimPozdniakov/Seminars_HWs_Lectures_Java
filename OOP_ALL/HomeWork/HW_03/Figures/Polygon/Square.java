@@ -7,6 +7,9 @@ public class Square extends Polygon implements FigurePerimeter{
         this.sides.add(sideB);
         this.sides.add(sideC);
         this.sides.add(sideD);
+        if (sideA<sideB && sideA<sideC && sideA<sideD){
+            throw new Exception("Такого квадрата не может быть!");
+        }
     }
 
     public double figureArea() {

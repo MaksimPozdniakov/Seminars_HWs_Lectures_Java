@@ -93,7 +93,7 @@ public class Program {
                 double sideA = scanner.nextInt();
                 System.out.print("Укажите сторону B: ");
                 double sideB = scanner.nextInt();
-                System.out.println("Укажите сторону C: ");
+                System.out.print("Укажите сторону C: ");
                 double sideC = scanner.nextInt();
                 figures.addNewFigure(new Triangle(sideA,sideB,sideC));
                 break;

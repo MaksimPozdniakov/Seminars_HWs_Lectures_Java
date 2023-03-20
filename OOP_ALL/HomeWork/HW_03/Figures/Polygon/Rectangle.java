@@ -7,6 +7,10 @@ public class Rectangle extends Polygon implements FigurePerimeter{
         this.sides.add(sideB);
         this.sides.add(sideC);
         this.sides.add(sideD);
+
+        if (sideA<sideC && sideB<sideD){
+            throw new Exception("Такого прямоугольника не может быть!");
+        }
     }
 
     public double figureArea(){

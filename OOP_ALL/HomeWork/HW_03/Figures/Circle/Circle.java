@@ -6,8 +6,11 @@ public class Circle extends Figure implements Circumference {
 
     protected double radius;
 
-    public Circle(double radius) {
+    public Circle(double radius) throws Exception {
         this.radius = radius;
+        if (radius<1){
+            throw new Exception("Такого круга не может быть!");
+        }
     }
 
     @Override
