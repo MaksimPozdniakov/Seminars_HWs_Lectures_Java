@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/GetJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_05/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_05/presenter/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/ui/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_05/ui/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/ui/DesktopUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_05/ui/DesktopUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_04/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/Seminars/Seminar_05/ui/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Максим/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.1572327",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Максим/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1572327&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP_ALL.Seminars.Seminar_03" />
@@ -164,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00017" summary="HW_02">
-      <created>1676721390247</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1676721390247</updated>
     </task>
     <task id="LOCAL-00018" summary="HW_02">
       <created>1676722617411</created>
@@ -508,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679303968687</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="HW6">
+      <created>1679332522217</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679332522217</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
