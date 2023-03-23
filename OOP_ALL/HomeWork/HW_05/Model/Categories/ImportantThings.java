@@ -10,7 +10,8 @@ public class ImportantThings extends Notes {
     }
 
     public String toString(){
-        return date + deadline + nameThing + text;
+        return "Задача поставлена: " + date + ", Выполнить до: " + deadline + ", Название задачи: " + nameThing +
+                ", Содержание: " + text;
     }
 
 }

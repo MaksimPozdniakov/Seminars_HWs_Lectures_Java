@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DataBase/notebook.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/BaseClass/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ImportantThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/UnimportantThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Notebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_17_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_17__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_20_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_20__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_25_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2023_12_25__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DB/OurDB.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/EntryJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Notebook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/ReadJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DataBase/notebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DataBase/notebook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ImportantThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ImportantThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/UnimportantThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/UnimportantThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00019" summary="HW_02">
-      <created>1676723304351</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1676723304351</updated>
     </task>
     <task id="LOCAL-00020" summary="HW_02">
       <created>1676753407046</created>
@@ -514,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679504205022</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="HW6">
+      <created>1679568382581</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1679568382581</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

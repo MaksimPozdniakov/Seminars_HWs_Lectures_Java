@@ -8,7 +8,7 @@ public class ProductList extends Notes {
     }
 
     public String toString(){
-        return date + nameThing + text;
+        return "Задача поставлена: " + date + ", Название задачи: " + nameThing + ", Содержание: " + text;
     }
 
 }
