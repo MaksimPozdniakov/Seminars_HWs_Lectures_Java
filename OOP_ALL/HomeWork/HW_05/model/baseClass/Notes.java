@@ -1,4 +1,4 @@
-package OOP_ALL.HomeWork.HW_05.Model.BaseClass;
+package OOP_ALL.HomeWork.HW_05.model.baseClass;
 
 public class Notes {
 protected String date;

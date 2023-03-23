@@ -1,6 +1,6 @@
-package OOP_ALL.HomeWork.HW_05.Model.Categories;
+package OOP_ALL.HomeWork.HW_05.model.categories;
 
-import OOP_ALL.HomeWork.HW_05.Model.BaseClass.Notes;
+import OOP_ALL.HomeWork.HW_05.model.baseClass.Notes;
 
 public class UnimportantThings extends Notes {
     public UnimportantThings(String date, String nameThing, String text) {

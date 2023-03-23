@@ -1,6 +1,6 @@
-package OOP_ALL.HomeWork.HW_05;
+package OOP_ALL.HomeWork.HW_05.model;
 
-import OOP_ALL.HomeWork.HW_05.Model.BaseClass.Notes;
+import OOP_ALL.HomeWork.HW_05.model.baseClass.Notes;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -31,11 +31,6 @@ public class Notebook {
         }
     }
 
-//    public void showAll(){
-//        for (Notes el: ourTasks) {
-//            System.out.println(el);
-//        }
-//    }
 
     public void read() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\PMPav\\OneDrive\\Рабочий стол\\" +
