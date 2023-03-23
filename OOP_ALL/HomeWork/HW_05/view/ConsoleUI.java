@@ -16,34 +16,44 @@ public class ConsoleUI {
     }
 
     public void showMenu() throws IOException {
-        String textMenu = """
-                1. Показать все записи
-                2. Добавить новую запись
-                3. Удалить запись
-                4. Сохранить изменения
-                5. Выйти из программы
-                """;
-        System.out.println(textMenu);
-        System.out.print("\tСделайте выбор: ");
-        int ourChoice = scanner.nextInt();
-        menu(ourChoice);
-    }
-
-    public void menu(int ourChoice) throws IOException {
-        switch (ourChoice) {
-            case 1:
-                notes.read();
-                break;
-            case 2:
-                addNewNote();
-                break;
-            case 4:
-                notes.write();
-                break;
-            case 5:
-                System.exit(0);
+        while (true) {
+            String textMenu = """
+                    1. Открыть блакнот
+                    2. Показать все записи
+                    3. Добавить новую запись
+                    4. Удалить запись
+                    5. Сохранить изменения
+                    6. Выйти из программы
+                    """;
+            System.out.println(textMenu);
+            System.out.print("\tСделайте выбор: ");
+            int ourChoice = scanner.nextInt();
+            //        menu(ourChoice);
+            switch (ourChoice) {
+                case 1 -> notes.readFile();
+                case 2 -> notes.showAllNotes();
+                case 3 -> addNewNote();
+                case 5 -> notes.write();
+                case 6 -> System.exit(0);
+            }
         }
     }
+
+//    public void menu(int ourChoice) throws IOException {
+//        switch (ourChoice) {
+//            case 1:
+//                notes.read();
+//                break;
+//            case 2:
+//                addNewNote();
+//                break;
+//            case 4:
+//                notes.write();
+//                break;
+//            case 5:
+//                System.exit(0);
+//        }
+//    }
 
     public void addNewNote() throws IOException {
         while (true) {
@@ -85,6 +95,7 @@ public class ConsoleUI {
                     showMenu();
                     break;
             }
+            break;
         }
 //        String textMenu = """
 //                1. Добавить важную задачу
