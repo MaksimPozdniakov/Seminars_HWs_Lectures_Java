@@ -1,4 +1,4 @@
-package OOP_ALL.HomeWork.HW_05.model;
+package OOP_ALL.HomeWork.HW_05.presenter;
 
 import OOP_ALL.HomeWork.HW_05.model.baseClass.Notes;
 

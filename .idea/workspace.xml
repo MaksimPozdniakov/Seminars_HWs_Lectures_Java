@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/view/ConsoleUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DataBase/notebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/DataBase/notebook.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ImportantThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ImportantThings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/ProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/UnimportantThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Model/Categories/UnimportantThings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/model/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/presenter/Notebook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP_ALL.HomeWork.HW_05.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_05.Program" />
-      <module name="Seminars_HWs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_ALL.HomeWork.HW_05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OOP_ALL.Seminars.Seminar_03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_03.Program" />
       <module name="Seminars_HWs_Java" />
@@ -140,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_05.Program" />
+      <module name="Seminars_HWs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_ALL.HomeWork.HW_05.presenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OOP_ALL.HomeWork.HW_05.Program" />
@@ -158,20 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00020" summary="HW_02">
-      <created>1676753407046</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1676753407046</updated>
-    </task>
-    <task id="LOCAL-00021" summary="HW_02">
-      <created>1676806413111</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1676806413111</updated>
     </task>
     <task id="LOCAL-00022" summary="HW_02">
       <created>1676806531764</created>
@@ -502,7 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679568382581</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="HW6">
+      <created>1679570234272</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1679570234272</updated>
+    </task>
+    <task id="LOCAL-00070" summary="HW6">
+      <created>1679570766877</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1679570766877</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,7 +1,7 @@
 package OOP_ALL.HomeWork.HW_05;
 
 import OOP_ALL.HomeWork.HW_05.model.categories.ImportantThings;
-import OOP_ALL.HomeWork.HW_05.model.Notebook;
+import OOP_ALL.HomeWork.HW_05.presenter.Notebook;
 
 import java.io.IOException;
 
