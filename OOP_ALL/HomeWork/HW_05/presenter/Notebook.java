@@ -26,8 +26,8 @@ public class Notebook {
 //            helpString.append("\n");
         }
 
-        try (FileWriter fw = new FileWriter("C:\\Users\\PMPav\\OneDrive\\Рабочий стол\\Study\\" +
-                "Seminars_HWs_Lectures_Java\\OOP_ALL\\HomeWork\\HW_05\\DataBase\\notebook.txt", false)) {
+        try (FileWriter fw = new FileWriter("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\" +
+                "Seminars_HWs_Lectures_Java\\OOP_ALL\\HomeWork\\HW_05\\dataBase\\notebook.txt", false)) {
             fw.append(helpString);
             fw.flush();
         } catch (IOException ex) {
@@ -37,8 +37,9 @@ public class Notebook {
 
     public StringBuilder readFile() throws IOException {
         StringBuilder helpString = new StringBuilder();
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\PMPav\\OneDrive\\Рабочий стол\\" +
-                "Study\\Seminars_HWs_Lectures_Java\\OOP_ALL\\HomeWork\\HW_05\\DataBase\\notebook.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\PMPav\\Desktop\\" +
+                "Second block of study\\Seminars\\Seminars_HWs_Lectures_Java\\OOP_ALL\\HomeWork\\HW_05\\" +
+                "dataBase\\notebook.txt"));
         String str;
         while ((str = br.readLine()) != null) {
 //            System.out.println(str);
