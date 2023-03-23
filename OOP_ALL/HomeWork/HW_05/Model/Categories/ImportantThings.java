@@ -1,0 +1,16 @@
+package OOP_ALL.HomeWork.HW_05.Model.Categories;
+
+import OOP_ALL.HomeWork.HW_05.Model.BaseClass.Notes;
+
+public class ImportantThings extends Notes {
+    protected String deadline;
+    public ImportantThings(String date, String deadline, String nameThing, String text) {
+        super(date, nameThing, text);
+        this.deadline = deadline;
+    }
+
+    public String toString(){
+        return date + deadline + nameThing + text;
+    }
+
+}
