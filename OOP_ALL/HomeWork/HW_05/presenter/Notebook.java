@@ -20,6 +20,7 @@ public class Notebook {
         StringBuilder helpString = new StringBuilder();
         for (int i = 0; i < ourTasks.size(); i++) {
             helpString.append(ourTasks.get(i));
+            helpString.append("\n");
         }
 
         try (FileWriter fw = new FileWriter("C:\\Users\\PMPav\\OneDrive\\Рабочий стол\\Study\\" +
