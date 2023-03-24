@@ -37,6 +37,7 @@ public class ConsoleUI {
                 case 5 -> notes.write();
                 case 6 -> System.exit(0);
             }
+
         }
     }
 
