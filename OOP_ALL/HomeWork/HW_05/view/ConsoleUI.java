@@ -44,7 +44,9 @@ public class ConsoleUI {
 
 
     public void addNewNote() throws IOException {
-        while (true) {
+//        boolean flag = true;
+        int flag = 1;
+        while (flag == 1) {
             String textMenu = """
                 1. Добавить важную задачу
                 2. Добавить неважную задачу
@@ -55,6 +57,8 @@ public class ConsoleUI {
             System.out.print("\tСделайте выбор: ");
             int ourChoice = scanner.nextInt();
             scanner.nextLine();
+//            boolean flag = true;
+//            String flag = "+";
 
             System.out.print("Укажите дату добавления: ");
             String date = scanner.nextLine();
@@ -68,22 +72,23 @@ public class ConsoleUI {
                     System.out.print("Укажите дедлайн: ");
                     String deadline = scanner.nextLine();
                     notes.addNote(new ImportantThings(date,deadline,nameThing,text));
-                    notes.updateDb();
+
                     break;
                 case 2:
                     notes.addNote(new UnimportantThings(date,nameThing,text));
-                    notes.updateDb();
+
                     break;
                 case 3:
                     notes.addNote(new ProductList(date,nameThing,text));
-                    notes.updateDb();
+
                     break;
                 case 4:
-                    showMenu();
+                    flag = 0;
                     break;
             }
-            break;
         }
+        notes.updateDb();
+        showMenu();
     }
 
     public void removeNote(){

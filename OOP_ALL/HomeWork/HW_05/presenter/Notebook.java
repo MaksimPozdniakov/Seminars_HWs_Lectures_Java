@@ -34,6 +34,8 @@ public class Notebook {
         StringBuilder helpString = new StringBuilder();
         for (Notes ourTask : ourTasks) {
             helpString.append(ourTask);
+            helpString.append("\n");
+
         }
         ourFile.add(helpString.toString());
         return ourFile;
@@ -48,6 +50,7 @@ public class Notebook {
         int num = 1;
         for (String el: ourFile) {
             System.out.printf("%d) %s\n",num, el);
+            num++;
         }
         System.out.println();
     }
