@@ -72,15 +72,12 @@ public class ConsoleUI {
                     System.out.print("Укажите дедлайн: ");
                     String deadline = scanner.nextLine();
                     notes.addNote(new ImportantThings(date,deadline,nameThing,text));
-
                     break;
                 case 2:
                     notes.addNote(new UnimportantThings(date,nameThing,text));
-
                     break;
                 case 3:
                     notes.addNote(new ProductList(date,nameThing,text));
-
                     break;
                 case 4:
                     flag = 0;
