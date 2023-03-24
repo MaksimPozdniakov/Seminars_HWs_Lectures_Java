@@ -1,6 +1,7 @@
 package OOP_ALL.HomeWork.HW_05.view;
 
 import OOP_ALL.HomeWork.HW_05.model.categories.ImportantThings;
+import OOP_ALL.HomeWork.HW_05.model.categories.UnimportantThings;
 import OOP_ALL.HomeWork.HW_05.presenter.Notebook;
 
 import java.io.IOException;
@@ -91,6 +92,18 @@ public class ConsoleUI {
 
                     notes.addNote(new ImportantThings(date,deadline,nameThing,text));
                     break;
+//                case 2:
+//                    System.out.print("Укажите дату добавления: ");
+//                    String date2 = scanner.next();
+//
+//                    System.out.print("Укажите название задачи: ");
+//                    String nameThing2 = scanner.next();
+//
+//                    System.out.print("Напишите описание задачи: ");
+//                    String text2 = scanner.next();
+//
+//                    notes.addNote(new UnimportantThings(date2,nameThing2,text2));
+//                    break;
                 case 4:
                     showMenu();
                     break;

@@ -8,7 +8,7 @@ public class UnimportantThings extends Notes {
     }
 
     public String toString(){
-        return "Задача поставлена: " + date + ", Название задачи: " + nameThing + ", Содержание: " + text;
+        return "Неважная - " + "Задача поставлена: " + date + ", Название задачи: " + nameThing +
+                ", Содержание: " + text;
     }
-
 }
