@@ -1,6 +1,7 @@
 package OOP_ALL.HomeWork.HW_05.view;
 
 import OOP_ALL.HomeWork.HW_05.model.categories.ImportantThings;
+import OOP_ALL.HomeWork.HW_05.model.categories.ProductList;
 import OOP_ALL.HomeWork.HW_05.model.categories.UnimportantThings;
 import OOP_ALL.HomeWork.HW_05.presenter.Notebook;
 
@@ -42,54 +43,36 @@ public class ConsoleUI {
 
 
     public void addNewNote() throws IOException {
-
-
         while (true) {
             String textMenu = """
                 1. Добавить важную задачу
                 2. Добавить неважную задачу
-                3. Дополнить список покупок
+                3. Дополнить новый элемент в список покупок
                 4. Вернуться в главное меню
                 """;
             System.out.println(textMenu);
             System.out.print("\tСделайте выбор: ");
             int ourChoice = scanner.nextInt();
+            scanner.nextLine();
 
-//            System.out.print("Укажите дату добавления: ");
-//            String date = scanner.nextLine();
-//            scanner.nextLine();
-//            System.out.print("Укажите название задачи: ");
-//            String nameThing = scanner.nextLine();
-//            System.out.print("Напишите описание задачи: ");
-//            String text = scanner.nextLine();
+            System.out.print("Укажите дату добавления: ");
+            String date = scanner.nextLine();
+            System.out.print("Укажите название задачи: ");
+            String nameThing = scanner.nextLine();
+            System.out.print("Напишите описание задачи: ");
+            String text = scanner.nextLine();
 
             switch (ourChoice){
                 case 1:
-                    System.out.print("Укажите дату добавления: ");
-                    String date = scanner.next();
-
                     System.out.print("Укажите дедлайн: ");
-                    String deadline = scanner.next();
-
-                    System.out.print("Укажите название задачи: ");
-                    String nameThing = scanner.next();
-
-                    System.out.print("Напишите описание задачи: ");
-                    String text = scanner.next();
-
+                    String deadline = scanner.nextLine();
                     notes.addNote(new ImportantThings(date,deadline,nameThing,text));
                     break;
                 case 2:
-                    System.out.print("Укажите дату добавления: ");
-                    String date2 = scanner.next();
-
-                    System.out.print("Укажите название задачи: ");
-                    String nameThing2 = scanner.next();
-
-                    System.out.print("Напишите описание задачи: ");
-                    String text2 = scanner.next();
-
-                    notes.addNote(new UnimportantThings(date2,nameThing2,text2));
+                    notes.addNote(new UnimportantThings(date,nameThing,text));
+                    break;
+                case 3:
+                    notes.addNote(new ProductList(date,nameThing,text));
                     break;
                 case 4:
                     showMenu();
