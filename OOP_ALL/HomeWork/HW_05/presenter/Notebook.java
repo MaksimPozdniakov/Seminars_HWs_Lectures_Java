@@ -40,14 +40,16 @@ public class Notebook {
     }
 
     public ArrayList<String> remove(int num){
-        ourFile.remove(num);
+        ourFile.remove(num-1);
         return ourFile;
     }
 
     public void showAllNotes(){
+        int num = 1;
         for (String el: ourFile) {
-            System.out.println(el);
+            System.out.printf("%d) %s\n",num, el);
         }
+        System.out.println();
     }
 
     public void write(){

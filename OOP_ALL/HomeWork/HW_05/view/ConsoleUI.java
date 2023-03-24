@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class ConsoleUI {
 
-    protected Scanner scanner;// = new Scanner(System.in);
+    protected Scanner scanner;
     Notebook notes = new Notebook();
 
     public ConsoleUI() {
@@ -25,7 +25,7 @@ public class ConsoleUI {
                     3. Добавить новую запись
                     4. Удалить запись
                     5. Сохранить изменения
-                    6. Выйти из программы
+                    6. Закрыть блакнот
                     """;
             System.out.println(textMenu);
             System.out.print("\tСделайте выбор: ");
@@ -34,6 +34,7 @@ public class ConsoleUI {
                 case 1 -> notes.readFile();
                 case 2 -> notes.showAllNotes();
                 case 3 -> addNewNote();
+                case 4 -> removeNote();
                 case 5 -> notes.write();
                 case 6 -> System.exit(0);
             }
@@ -86,8 +87,9 @@ public class ConsoleUI {
     }
 
     public void removeNote(){
-
+        notes.showAllNotes();
+        System.out.print("Какою запись будем удалять? ");
+        int choice = scanner.nextInt();
+        notes.remove(choice);
     }
-
-
 }
