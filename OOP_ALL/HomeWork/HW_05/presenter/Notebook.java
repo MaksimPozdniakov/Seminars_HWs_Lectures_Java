@@ -33,8 +33,8 @@ public class Notebook {
     public ArrayList<String> updateDb(){
         StringBuilder helpString = new StringBuilder();
         for (Notes ourTask : ourTasks) {
+            if (helpString.length()>0) helpString.append("\n");
             helpString.append(ourTask);
-            helpString.append("\n");
 
         }
         ourFile.add(helpString.toString());
