@@ -29,7 +29,6 @@ public class ConsoleUI {
             System.out.println(textMenu);
             System.out.print("\tСделайте выбор: ");
             int ourChoice = scanner.nextInt();
-            //        menu(ourChoice);
             switch (ourChoice) {
                 case 1 -> notes.readFile();
                 case 2 -> notes.showAllNotes();
@@ -41,23 +40,10 @@ public class ConsoleUI {
         }
     }
 
-//    public void menu(int ourChoice) throws IOException {
-//        switch (ourChoice) {
-//            case 1:
-//                notes.read();
-//                break;
-//            case 2:
-//                addNewNote();
-//                break;
-//            case 4:
-//                notes.write();
-//                break;
-//            case 5:
-//                System.exit(0);
-//        }
-//    }
 
     public void addNewNote() throws IOException {
+
+
         while (true) {
             String textMenu = """
                 1. Добавить важную задачу
@@ -93,48 +79,23 @@ public class ConsoleUI {
 
                     notes.addNote(new ImportantThings(date,deadline,nameThing,text));
                     break;
-//                case 2:
-//                    System.out.print("Укажите дату добавления: ");
-//                    String date2 = scanner.next();
-//
-//                    System.out.print("Укажите название задачи: ");
-//                    String nameThing2 = scanner.next();
-//
-//                    System.out.print("Напишите описание задачи: ");
-//                    String text2 = scanner.next();
-//
-//                    notes.addNote(new UnimportantThings(date2,nameThing2,text2));
-//                    break;
+                case 2:
+                    System.out.print("Укажите дату добавления: ");
+                    String date2 = scanner.next();
+
+                    System.out.print("Укажите название задачи: ");
+                    String nameThing2 = scanner.next();
+
+                    System.out.print("Напишите описание задачи: ");
+                    String text2 = scanner.next();
+
+                    notes.addNote(new UnimportantThings(date2,nameThing2,text2));
+                    break;
                 case 4:
                     showMenu();
                     break;
             }
             break;
         }
-//        String textMenu = """
-//                1. Добавить важную задачу
-//                2. Добавить неважную задачу
-//                3. Дополнить список покупок
-//                4. Выйти из программы
-//                """;
-//        System.out.println(textMenu);
-//        System.out.print("\tСделайте выбор: ");
-//        int ourChoice = scanner.nextInt();
-//
-//        System.out.print("Укажите дату добавления: ");
-//        String date = scanner.nextLine();
-//        scanner.nextLine();
-//        System.out.print("Укажите название задачи: ");
-//        String nameThing = scanner.nextLine();
-//        System.out.print("Напишите описание задачи: ");
-//        String text = scanner.nextLine();
-//
-//        switch (ourChoice){
-//            case 1:
-//                System.out.print("Укажите дедлайн: ");
-//                String deadline = scanner.nextLine();
-//                notes.addNote(new ImportantThings(date,deadline,nameThing,text));
-//        }
     }
-
 }
