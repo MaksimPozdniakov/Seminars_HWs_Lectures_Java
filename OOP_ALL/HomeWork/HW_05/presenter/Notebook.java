@@ -21,9 +21,7 @@ public class Notebook {
         StringBuilder helpString = new StringBuilder();
         for (Notes ourTask : ourTasks) {
             helpString.append(readFile());
-//            helpString.append("\n");
             helpString.append(ourTask);
-//            helpString.append("\n");
         }
 
         try (FileWriter fw = new FileWriter("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\" +
@@ -42,7 +40,6 @@ public class Notebook {
                 "dataBase\\notebook.txt"));
         String str;
         while ((str = br.readLine()) != null) {
-//            System.out.println(str);
             helpString.append(str);
             helpString.append("\n");
         }

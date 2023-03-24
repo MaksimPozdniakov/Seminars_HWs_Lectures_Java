@@ -81,4 +81,10 @@ public class ConsoleUI {
             break;
         }
     }
+
+    public void removeNote(){
+
+    }
+
+
 }
