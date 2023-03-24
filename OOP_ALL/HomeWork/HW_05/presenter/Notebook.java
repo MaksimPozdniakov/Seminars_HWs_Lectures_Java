@@ -53,8 +53,8 @@ public class Notebook {
     public void write(){
         StringBuilder helpString2 = new StringBuilder();
         for (String s : ourFile) {
+            if (helpString2.length()>0) helpString2.append("\n");
             helpString2.append(s);
-            helpString2.append("\n");
         }
 
         try (FileWriter fw = new FileWriter("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\" +
