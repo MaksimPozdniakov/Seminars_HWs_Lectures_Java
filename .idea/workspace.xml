@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW5">
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/dataBase/notebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/dataBase/notebook.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/view/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_05/view/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Task.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="OOP_ALL.Seminars.Seminar_03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.OOP_ALL.HomeWork.HW_04.Program">
     <configuration name="OOP_ALL.HomeWork.HW_03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_03.Program" />
       <module name="Seminars_HWs_Java" />
@@ -137,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOP_ALL.HomeWork.HW_04.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.OOP_ALL.HomeWork.HW_03.Program" />
-        <item itemvalue="Application.OOP_ALL.HomeWork.HW_04.Program" />
         <item itemvalue="Application.OOP_ALL.Seminars.Seminar_04.Program" />
         <item itemvalue="Application.OOP_ALL.Seminars.Seminar_03.Program" />
       </list>
@@ -153,20 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00038" summary="HW6">
-      <created>1678108347078</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1678108347078</updated>
-    </task>
-    <task id="LOCAL-00039" summary="HW6">
-      <created>1678108701070</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1678108701070</updated>
     </task>
     <task id="LOCAL-00040" summary="HW6">
       <created>1678111003566</created>
@@ -497,7 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679742691278</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="HW5">
+      <created>1679743043578</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1679743043578</updated>
+    </task>
+    <task id="LOCAL-00088" summary="HW5">
+      <created>1679743069828</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1679743069828</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
