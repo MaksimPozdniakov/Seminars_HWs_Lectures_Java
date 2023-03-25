@@ -9,9 +9,9 @@ public class Program {
 
         DynamicArray<Integer> dynArray = new DynamicArray<>(ourArray);
 
-        System.out.print("Наш изначальный массив: ");
-        dynArray.print();
-
+//        System.out.print("Наш изначальный массив: ");
+//        dynArray.print();
+//
 //        System.out.print("Укажите новый эелемент массива: ");
 //        int newElem = scanner.nextInt();
 //        dynArray.addInArr(newElem);
@@ -37,7 +37,7 @@ public class Program {
 //        int maxDig = dynArray.maxEl();
 //        System.out.printf("Максимальный элемент нашего массива: %d", maxDig);
 //        System.out.println();
-
+//
 //        int sumDig = dynArray.sumEl();
 //        System.out.printf("Сумма элементов нашего массива: %d", sumDig);
 

@@ -15,7 +15,9 @@ public class DynamicArray<T extends Comparable<T>> {
         this.length = newArray.length;
     }
     public void addInArr(T digit){
-        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
+        if (this.length == this.array.length) {
+            array = Arrays.copyOf(array, length + 1);
+        }
         array[length] = digit;
         length++;
     }
