@@ -15,14 +15,16 @@ public class DynamicArray<T extends Comparable<T>> {
         this.length = newArray.length;
     }
     public void addInArr(T digit){
-        if (this.length == this.array.length){
-            this.array = Arrays.copyOf(array, array.length + 1);
-        }
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         array[length] = digit;
         length++;
     }
 
     public void removeEl(int num){
+        if (0 > num || num >= length) {
+            throw new IndexOutOfBoundsException("Индекс выходит за пределы массива");
+        }
+
         for (int i = num; i < length - 1; i++) {
             array[i] = array[i + 1];
         }
@@ -31,6 +33,10 @@ public class DynamicArray<T extends Comparable<T>> {
     }
 
     public void removeAllSpecDig(int num){
+        if (0 > num || num >= length) {
+            throw new IndexOutOfBoundsException("Индекс выходит за пределы массива");
+        }
+
         int count = 0;
         for (int i = 0; i < length; i++) {
             if (array[i].equals(num)){
@@ -44,6 +50,8 @@ public class DynamicArray<T extends Comparable<T>> {
     }
 
     public T  minEl(){
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
+
        T min = array[0];
         for (int i = 0; i < length; i++) {
             if (this.array[i].compareTo(min) < 0){
@@ -54,6 +62,8 @@ public class DynamicArray<T extends Comparable<T>> {
     }
 
     public T  maxEl(){
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
+
         T max = array[0];
         for (int i = 0; i < length; i++) {
             if (this.array[i].compareTo(max) > 0){
@@ -64,6 +74,8 @@ public class DynamicArray<T extends Comparable<T>> {
     }
 
     public int sumEl(){
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
+
         int sum = 0;
         for (int i = 0; i < length; i++) {
             if (array[i] instanceof Number) {
@@ -87,6 +99,7 @@ public class DynamicArray<T extends Comparable<T>> {
 
 //    Поиск индекса заданного элемента в массиве, если такого элемента в массиве нет то возвращать -1
     public int indexOf(T value) {
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         for (int i = 0; i < length; i++) {
             if (array[i].equals(value)) {
                 return i;
@@ -97,20 +110,23 @@ public class DynamicArray<T extends Comparable<T>> {
     }
 
     public boolean contains(T value) {
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         return indexOf(value) != -1;
     }
 //    Получение элемента массива по индексу
     public T getDig(int index){
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         return array[index];
     }
 //    Задание значения элементу массива с заданным индексом
     public T changeDig(int index, T num){
-//        array[index] = array[num];
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         return array[index] = num;
     }
 
 //    Пузырьковая сортировка
     public void bubbleSorting(){
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         for (int i = 0; i < length - 1; i++) {
             for (int j = 0; j < length - 1; j++) {
                 if (this.array[j].compareTo(this.array[j + 1]) > 0){
@@ -125,6 +141,7 @@ public class DynamicArray<T extends Comparable<T>> {
 
 //Сортировка простыми вставками
     public void insertionSort() {
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         for (int i = 1; i < length; i++) {
             T temp = array[i];
             int j = i - 1;
@@ -138,6 +155,7 @@ public class DynamicArray<T extends Comparable<T>> {
 
 //Сортировка простым выбором
     public void selectionSort() {
+        if (length == 0) throw new IllegalArgumentException("Переданный массив пустой");
         for (int i = 0; i < length - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < length; j++) {
