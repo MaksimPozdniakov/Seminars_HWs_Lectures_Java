@@ -33,7 +33,9 @@ public class ConsoleUI {
             switch (ourChoice) {
                 case 1 -> {
                     notes.readFile();
-                    System.out.println("Блакнот открыт!");
+                    System.out.println();
+                    System.out.println("\tБлакнот открыт!");
+                    System.out.println();
                 }
                 case 2 -> notes.showAllNotes();
                 case 3 -> addNewNote();
@@ -68,31 +70,31 @@ public class ConsoleUI {
 
             switch (ourChoice) {
                 case 1 -> {
-                    System.out.print("Укажите дату добавления: ");
+                    System.out.print("\tУкажите дату добавления: ");
                     String date1 = scanner.nextLine();
-                    System.out.print("Укажите дедлайн: ");
+                    System.out.print("\tУкажите дедлайн: ");
                     String deadline1 = scanner.nextLine();
-                    System.out.print("Укажите название задачи: ");
+                    System.out.print("\tУкажите название задачи: ");
                     String nameThing1 = scanner.nextLine();
-                    System.out.print("Напишите описание задачи: ");
+                    System.out.print("\tНапишите описание задачи: ");
                     String text1 = scanner.nextLine();
                     notes.addNote(new ImportantThings(date1, deadline1, nameThing1, text1));
                 }
                 case 2 -> {
-                    System.out.print("Укажите дату добавления: ");
+                    System.out.print("\tУкажите дату добавления: ");
                     String date2 = scanner.nextLine();
-                    System.out.print("Укажите название задачи: ");
+                    System.out.print("\tУкажите название задачи: ");
                     String nameThing2 = scanner.nextLine();
-                    System.out.print("Напишите описание задачи: ");
+                    System.out.print("\tНапишите описание задачи: ");
                     String text2 = scanner.nextLine();
                     notes.addNote(new UnimportantThings(date2, nameThing2, text2));
                 }
                 case 3 -> {
-                    System.out.print("Укажите дату добавления: ");
+                    System.out.print("\tУкажите дату добавления: ");
                     String date3 = scanner.nextLine();
-                    System.out.print("Укажите название задачи: ");
+                    System.out.print("\tУкажите название задачи: ");
                     String nameThing3 = scanner.nextLine();
-                    System.out.print("Напишите описание задачи: ");
+                    System.out.print("\tНапишите описание задачи: ");
                     String text3 = scanner.nextLine();
                     notes.addNote(new ProductList(date3, nameThing3, text3));
                 }
