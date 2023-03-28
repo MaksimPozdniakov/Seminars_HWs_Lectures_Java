@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW5">
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/db/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/db/ourNotebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/baseClass/Notes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/ImportantThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/UnimportantThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/presenter/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_04/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,19 +72,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PMPav/Desktop/Second block of study/Seminars/d&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PMPav/Desktop/Second block of study/Seminars/Seminars_HWs_Lectures_Java/OOP_ALL/HomeWork/HW_06&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.1572327&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP_ALL.Seminars.Seminar_03" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PMPav\Desktop\Second block of study\Seminars\Seminars_HWs_Lectures_Java\OOP_ALL\HomeWork\HW_06" />
+      <recent name="C:\Users\PMPav\Desktop\Second block of study\Seminars\Seminars_HWs_Lectures_Java\OOP_ALL\HomeWork\HW_06\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OOP_ALL.HomeWork.HW_06" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OOP_ALL.HomeWork.HW_04.Program">
+  <component name="RunManager" selected="Application.OOP_ALL.HomeWork.HW_06.Program">
     <configuration name="OOP_ALL.HomeWork.HW_03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_03.Program" />
       <module name="Seminars_HWs_Java" />
@@ -97,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP_ALL.Seminars.Seminar_03.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_ALL.Seminars.Seminar_03.Program" />
+    <configuration name="OOP_ALL.HomeWork.HW_06.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_ALL.HomeWork.HW_06.Program" />
       <module name="Seminars_HWs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP_ALL.Seminars.Seminar_03.*" />
+          <option name="PATTERN" value="OOP_ALL.HomeWork.HW_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OOP_ALL.HomeWork.HW_04.Program" />
+        <item itemvalue="Application.OOP_ALL.HomeWork.HW_06.Program" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.OOP_ALL.HomeWork.HW_04.Program" />
         <item itemvalue="Application.OOP_ALL.HomeWork.HW_03.Program" />
         <item itemvalue="Application.OOP_ALL.Seminars.Seminar_04.Program" />
-        <item itemvalue="Application.OOP_ALL.Seminars.Seminar_03.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00042" summary="HW6">
-      <created>1678206279188</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1678206279188</updated>
     </task>
     <task id="LOCAL-00043" summary="HW6">
       <created>1678206575835</created>
@@ -498,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679749553953</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="HW5">
+      <created>1679750082957</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1679750082957</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
