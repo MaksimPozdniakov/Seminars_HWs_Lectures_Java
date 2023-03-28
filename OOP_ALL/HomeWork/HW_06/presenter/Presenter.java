@@ -34,6 +34,10 @@ public class Presenter{
         service.write();
     }
 
+    public void remove(int index){
+        service.removeNote(index);
+    }
+
     public void print(){
         service.showAll();
     }

@@ -44,4 +44,9 @@ public class Notebook implements Service{
         ourDb.write(modelArrayList);
     }
 
+    public ArrayList<String> removeNote(int index){
+        modelArrayList.remove(index-1);
+        return modelArrayList;
+    }
+
 }

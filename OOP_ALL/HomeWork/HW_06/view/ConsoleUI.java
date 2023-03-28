@@ -50,7 +50,7 @@ public class ConsoleUI implements View{
                 }
                 case 2 -> print();
                 case 3 -> addNewNote();
-//                case 4 -> removeNote();
+                case 4 -> deleteNote();
                 case 5 -> presenter.writeBook();
                 case 6 -> System.exit(0);
             }
@@ -118,10 +118,10 @@ public class ConsoleUI implements View{
         start();
     }
 
-//    public void removeNote(){
-//        notes.showAllNotes();
-//        System.out.print("Какою запись будем удалять? ");
-//        int choice = scanner.nextInt();
-//        notes.remove(choice);
-//    }
+    public void deleteNote(){
+        print();
+        System.out.print("Какою запись будем удалять? ");
+        int choice = scanner.nextInt();
+        presenter.remove(choice);
+    }
 }
