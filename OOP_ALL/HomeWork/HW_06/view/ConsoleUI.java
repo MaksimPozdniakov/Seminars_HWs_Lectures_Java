@@ -48,15 +48,10 @@ public class ConsoleUI implements View{
                     System.out.println("\tБлакнот открыт!");
                     System.out.println();
                 }
-                case 2 -> {
-//                    notebook.showAll();
-                    print();
-                }
-                case 3 -> {
-                    addNewNote();
-                }
+                case 2 -> print();
+                case 3 -> addNewNote();
 //                case 4 -> removeNote();
-//                case 5 -> notes.write();
+                case 5 -> presenter.writeBook();
                 case 6 -> System.exit(0);
             }
         }

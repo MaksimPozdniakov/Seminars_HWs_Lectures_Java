@@ -30,6 +30,9 @@ public class Presenter{
         service.read();
     }
 
+    public void writeBook(){
+        service.write();
+    }
 
     public void print(){
         service.showAll();

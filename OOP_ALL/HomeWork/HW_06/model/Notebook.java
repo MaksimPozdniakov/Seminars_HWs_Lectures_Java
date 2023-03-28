@@ -38,4 +38,10 @@ public class Notebook implements Service{
         return modelArrayList;
     }
 
+    public void write(){
+        WriteFile ourDb = new WriteFile("C:\\Users\\PMPav\\Desktop\\Second block of study\\Seminars\\" +
+                "Seminars_HWs_Lectures_Java\\OOP_ALL\\HomeWork\\HW_06\\db\\file.txt");
+        ourDb.write(modelArrayList);
+    }
+
 }

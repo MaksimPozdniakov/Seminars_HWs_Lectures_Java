@@ -8,4 +8,5 @@ public interface Service {
     void showAll();
 
     ArrayList<String> read() throws FileNotFoundException;
+    void write();
 }
