@@ -85,7 +85,6 @@ public class ConsoleUI implements View{
                     String nameThing1 = scanner.nextLine();
                     System.out.print("\tНапишите описание задачи: ");
                     String text1 = scanner.nextLine();
-//                    notebook.addImportantNote(date1, deadline1, nameThing1, text1);
                     presenter.addNote(new ImportantThings(date1, deadline1, nameThing1, text1));
 
                 }
@@ -96,7 +95,6 @@ public class ConsoleUI implements View{
                     String nameThing2 = scanner.nextLine();
                     System.out.print("\tНапишите описание задачи: ");
                     String text2 = scanner.nextLine();
-//                    notebook.addUnimportantNote(date2, nameThing2, text2);
                     presenter.addNote(new UnimportantThings(date2, nameThing2, text2));
 
                 }
@@ -107,7 +105,6 @@ public class ConsoleUI implements View{
                     String nameThing3 = scanner.nextLine();
                     System.out.print("\tНапишите описание задачи: ");
                     String text3 = scanner.nextLine();
-//                    notebook.addProductListNote(date3, nameThing3, text3);
                     presenter.addNote(new ProductList(date3, nameThing3, text3));
                 }
                 case 4 -> flag = false;
@@ -116,7 +113,6 @@ public class ConsoleUI implements View{
                 break;
             }
         }
-//        notebook.upModelArrayList();
         start();
     }
 
