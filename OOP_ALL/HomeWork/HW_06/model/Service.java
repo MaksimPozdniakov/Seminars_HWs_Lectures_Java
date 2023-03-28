@@ -5,8 +5,12 @@ import java.util.ArrayList;
 
 public interface Service {
     void getNote(ArrayList<String> ourTasks);
+
     void showAll();
+
     ArrayList<String> read() throws FileNotFoundException;
+
     void write();
+
     ArrayList<String> removeNote(int index);
 }

@@ -4,17 +4,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class Notebook implements Service{
-//    private Presenter presenter;
-//    public void setPresenter(Presenter presenter) {
-//        this.presenter = presenter;
-//    }
-
-//    protected ArrayList<Notes> ourTasks;
-//    public Notebook(){
-//        ourTasks = new ArrayList<>();
-//    }
-
-
     protected ArrayList<String> modelArrayList = new ArrayList<>();
 
 

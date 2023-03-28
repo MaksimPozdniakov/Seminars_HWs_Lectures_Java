@@ -4,7 +4,6 @@ import OOP_ALL.HomeWork.HW_06.model.categories.ImportantThings;
 import OOP_ALL.HomeWork.HW_06.model.categories.ProductList;
 import OOP_ALL.HomeWork.HW_06.model.categories.UnimportantThings;
 import OOP_ALL.HomeWork.HW_06.presenter.Presenter;
-
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -20,11 +19,6 @@ public class ConsoleUI implements View{
     @Override
     public void setPresenter(Presenter presenter) {
         this.presenter = presenter;
-    }
-
-    @Override
-    public void print() {
-        presenter.print();
     }
 
     public void start() throws FileNotFoundException {
@@ -44,22 +38,23 @@ public class ConsoleUI implements View{
                 case 1 -> {
                     presenter.readBook();
                     System.out.println();
-                    System.out.println("\tБлакнот открыт!");
+                    System.out.println("\tБлокнот открыт!");
                     System.out.println();
                 }
                 case 2 -> {
-                    print();
+                    presenter.print();
                     System.out.println();
                 }
                 case 3 -> addNewNote();
                 case 4 -> deleteNote();
                 case 5 -> presenter.writeBook();
-                case 6 -> System.exit(0);
+                case 6 -> {
+                    System.out.println("Блокнот закрыт");
+                    System.exit(0);
+                }
             }
         }
     }
-
-
 
     public void addNewNote() throws FileNotFoundException {
         boolean flag = true;
@@ -117,7 +112,7 @@ public class ConsoleUI implements View{
     }
 
     public void deleteNote(){
-        print();
+        presenter.print();
         System.out.print("Какою запись будем удалять? ");
         int choice = scanner.nextInt();
         presenter.remove(choice);
