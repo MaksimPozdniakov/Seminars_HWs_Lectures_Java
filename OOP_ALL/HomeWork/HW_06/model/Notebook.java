@@ -1,7 +1,5 @@
 package OOP_ALL.HomeWork.HW_06.model;
 
-import OOP_ALL.HomeWork.HW_06.model.baseClass.Notes;
-
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
@@ -26,7 +24,11 @@ public class Notebook implements Service{
     }
 
     public void showAll(){
-        System.out.println(modelArrayList);
+        for (String el: modelArrayList) {
+            System.out.println(el);
+        }
+
+//        System.out.println(modelArrayList);
     }
 
     public ArrayList<String> read() throws FileNotFoundException {

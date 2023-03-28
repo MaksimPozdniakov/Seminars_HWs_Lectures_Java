@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW5">
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/db/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/db/ourNotebook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/WriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/baseClass/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/ImportantThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/categories/UnimportantThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/presenter/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_03_2023_9_19__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e1dd65fd-06fa-4274-8185-483407c10196" name="Changes" comment="HW6">
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/presenter/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_ALL/HomeWork/HW_06/view/ConsoleUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676016430076</updated>
-    </task>
-    <task id="LOCAL-00043" summary="HW6">
-      <created>1678206575835</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1678206575835</updated>
     </task>
     <task id="LOCAL-00044" summary="HW6">
       <created>1678527457241</created>
@@ -519,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679750082957</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="HW6">
+      <created>1680016537896</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1680016537896</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -530,8 +517,8 @@
     <MESSAGE value="HW_02" />
     <MESSAGE value="HW_3" />
     <MESSAGE value="L_06" />
-    <MESSAGE value="HW6" />
     <MESSAGE value="HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5" />
+    <MESSAGE value="HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
   </component>
 </project>

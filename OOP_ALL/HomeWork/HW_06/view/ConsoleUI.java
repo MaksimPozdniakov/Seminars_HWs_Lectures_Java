@@ -4,6 +4,8 @@ import OOP_ALL.HomeWork.HW_06.model.categories.ImportantThings;
 import OOP_ALL.HomeWork.HW_06.model.categories.ProductList;
 import OOP_ALL.HomeWork.HW_06.model.categories.UnimportantThings;
 import OOP_ALL.HomeWork.HW_06.presenter.Presenter;
+
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ConsoleUI implements View{
@@ -25,7 +27,7 @@ public class ConsoleUI implements View{
         presenter.print();
     }
 
-    public void start() {
+    public void start() throws FileNotFoundException {
         while (true) {
             String textMenu = """
                     1. Открыть блакнот
@@ -41,6 +43,7 @@ public class ConsoleUI implements View{
             switch (ourChoice) {
                 case 1 -> {
 //                    notebook.read();
+                    presenter.readBook();
                     System.out.println();
                     System.out.println("\tБлакнот открыт!");
                     System.out.println();
@@ -61,7 +64,7 @@ public class ConsoleUI implements View{
 
 
 
-    public void addNewNote(){
+    public void addNewNote() throws FileNotFoundException {
         boolean flag = true;
         while (true) {
             String textMenu = """

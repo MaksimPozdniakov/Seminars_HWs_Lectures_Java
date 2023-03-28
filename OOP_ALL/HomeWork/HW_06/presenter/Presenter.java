@@ -3,6 +3,8 @@ package OOP_ALL.HomeWork.HW_06.presenter;
 import OOP_ALL.HomeWork.HW_06.model.Service;
 import OOP_ALL.HomeWork.HW_06.model.baseClass.Notes;
 import OOP_ALL.HomeWork.HW_06.view.View;
+
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 
@@ -24,8 +26,8 @@ public class Presenter{
         service.getNote(ourTasks);
     }
 
-    public readBook(){
-
+    public void readBook() throws FileNotFoundException {
+        service.read();
     }
 
 
