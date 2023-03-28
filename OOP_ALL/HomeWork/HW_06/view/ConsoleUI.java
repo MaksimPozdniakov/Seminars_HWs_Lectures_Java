@@ -42,13 +42,15 @@ public class ConsoleUI implements View{
             int ourChoice = scanner.nextInt();
             switch (ourChoice) {
                 case 1 -> {
-//                    notebook.read();
                     presenter.readBook();
                     System.out.println();
                     System.out.println("\tБлакнот открыт!");
                     System.out.println();
                 }
-                case 2 -> print();
+                case 2 -> {
+                    print();
+                    System.out.println();
+                }
                 case 3 -> addNewNote();
                 case 4 -> deleteNote();
                 case 5 -> presenter.writeBook();

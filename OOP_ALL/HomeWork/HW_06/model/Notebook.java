@@ -24,11 +24,11 @@ public class Notebook implements Service{
     }
 
     public void showAll(){
+        int num = 1;
         for (String el: modelArrayList) {
-            System.out.println(el);
+            System.out.printf("\t%d) %s\n",num,el);
+            num++;
         }
-
-//        System.out.println(modelArrayList);
     }
 
     public ArrayList<String> read() throws FileNotFoundException {
