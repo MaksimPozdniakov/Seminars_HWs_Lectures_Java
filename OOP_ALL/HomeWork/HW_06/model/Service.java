@@ -13,4 +13,6 @@ public interface Service {
     void write();
 
     ArrayList<String> removeNote(int index);
+
+    void search(String searchString);
 }

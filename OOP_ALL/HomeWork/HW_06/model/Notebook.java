@@ -38,4 +38,15 @@ public class Notebook implements Service{
         return modelArrayList;
     }
 
+    public void search(String searchString){
+        for (int i = 0; i < modelArrayList.size(); i++) {
+            if (modelArrayList.get(i).contains(searchString)) {
+                System.out.println(modelArrayList.get(i));
+            }
+        }
+
+
+
+
+    }
 }

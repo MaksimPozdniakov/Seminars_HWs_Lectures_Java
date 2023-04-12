@@ -29,7 +29,8 @@ public class ConsoleUI implements View{
                     3. Добавить новую запись
                     4. Удалить запись
                     5. Сохранить изменения
-                    6. Закрыть блакнот
+                    6. Поиск
+                    7. Закрыть блакнот
                     """;
             System.out.println(textMenu);
             System.out.print("\tСделайте выбор: ");
@@ -48,7 +49,8 @@ public class ConsoleUI implements View{
                 case 3 -> addNewNote();
                 case 4 -> deleteNote();
                 case 5 -> presenter.writeBook();
-                case 6 -> {
+                case 6 -> search();
+                case 7 -> {
                     System.out.println("Блокнот закрыт");
                     System.exit(0);
                 }
@@ -116,5 +118,12 @@ public class ConsoleUI implements View{
         System.out.print("Какою запись будем удалять? ");
         int choice = scanner.nextInt();
         presenter.remove(choice);
+    }
+
+    public void search(){
+        System.out.print("Что ищем? ");
+        String choice = scanner.next();
+//        scanner.nextLine();
+        presenter.searchStr(choice);
     }
 }

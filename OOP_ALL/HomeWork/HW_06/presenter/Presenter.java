@@ -36,6 +36,10 @@ public class Presenter{
         service.removeNote(index);
     }
 
+    public void searchStr(String searchString){
+        service.search(searchString);
+    }
+
     public void print(){
         service.showAll();
     }
