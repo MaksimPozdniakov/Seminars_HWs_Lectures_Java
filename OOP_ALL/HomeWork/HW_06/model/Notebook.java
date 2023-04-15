@@ -45,8 +45,5 @@ public class Notebook implements Service{
             }
         }
 
-
-
-
     }
 }
