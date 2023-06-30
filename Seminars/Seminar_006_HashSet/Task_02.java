@@ -16,11 +16,11 @@ public class Task_02 {
 //        System.out.println(Arrays.toString(arr));
         System.out.println(unicValue(arr));
     }
-    static Integer[] getArray(int minn, int maxx, int size) {
+    static Integer[] getArray(int minn, int max, int size) {
         Integer[] array = new Integer[size];
         Random rand = new Random();
         for (int i = 0; i < size; i++) {
-            array[i] = rand.nextInt(minn, maxx);
+            array[i] = rand.nextInt(minn, max);
         }
         return array;
     }
